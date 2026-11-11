@@ -1,0 +1,572 @@
+date,region,product,units,unit_price
+2026-07-01,Perth,Desk lamp,3,32.00
+2026-07-01,Perth,Notebook,9,6.50
+2026-07-01,Fremantle,Desk lamp,2,32.00
+2026-07-01,Fremantle,Pen pack,14,4.00
+2026-07-01,Fremantle,Notebook,7,6.50
+2026-07-01,Joondalup,Desk lamp,2,32.00
+2026-07-01,Joondalup,Notebook,7,6.50
+2026-07-02,Perth,Pen pack,22,4.00
+2026-07-02,Perth,Notebook,17,6.50
+2026-07-02,Perth,Desk lamp,3,32.00
+2026-07-02,Fremantle,Pen pack,14,4.00
+2026-07-02,Fremantle,Desk lamp,2,32.00
+2026-07-02,Joondalup,Notebook,,6.50
+2026-07-02,Joondalup,Pen pack,10,4.00
+2026-07-03,Perth,Notebook,9,6.50
+2026-07-03,Perth,Desk lamp,3,32.00
+2026-07-03,Perth,Pen pack,12,4.00
+2026-07-03,Fremantle,Notebook,7,6.50
+2026-07-03,Fremantle,Pen pack,11,4.00
+2026-07-03,Fremantle,Desk lamp,2,32.00
+2026-07-03,Joondalup,Desk lamp,2,32.00
+2026-07-03,Joondalup,Pen pack,10,4.00
+2026-07-03,Joondalup,Notebook,7,6.50
+2026-07-04,Perth,Notebook,10,6.50
+2026-07-04,Perth,Pen pack,18,4.00
+2026-07-04,Fremantle,Desk lamp,2,32.00
+2026-07-04,Joondalup,Notebook,9,6.50
+2026-07-04,Joondalup,Desk lamp,2,32.00
+2026-07-05,Perth,Desk lamp,3,32.00
+2026-07-05,Perth,Pen pack,22,4.00
+2026-07-05,Perth,Notebook,9,6.50
+2026-07-05,Fremantle,Desk lamp,1,32.00
+2026-07-05,Fremantle,Notebook,9,6.50
+2026-07-05,Joondalup,Desk lamp,2,32.00
+2026-07-05,Joondalup,Notebook,7,6.50
+2026-07-06,Perth,Desk lamp,,32.00
+2026-07-06,Perth,Pen pack,,4.00
+2026-07-06,Perth,Notebook,14,6.50
+2026-07-06,Fremantle,Pen pack,16,4.00
+2026-07-06,Fremantle,Desk lamp,2,32.00
+2026-07-06,Fremantle,Notebook,6,6.50
+2026-07-06,Joondalup,Notebook,10,6.50
+2026-07-06,Joondalup,Pen pack,10,4.00
+2026-07-06,Joondalup,Desk lamp,2,32.00
+2026-07-07,Perth,Pen pack,19,4.00
+2026-07-07,Perth,Notebook,16,6.50
+2026-07-07,Fremantle,Pen pack,12,4.00
+2026-07-07,Fremantle,Notebook,12,6.50
+2026-07-07,Joondalup,Notebook,6,6.50
+2026-07-07,Joondalup,Desk lamp,1,32.00
+2026-07-07,Joondalup,Pen pack,12,4.00
+2026-07-08,Perth,Desk lamp,2,32.00
+2026-07-08,Perth,Notebook,14,6.50
+2026-07-08,Perth,Pen pack,23,4.00
+2026-07-08,Fremantle,Pen pack,8,4.00
+2026-07-08,Fremantle,Notebook,9,6.50
+2026-07-08,Joondalup,Pen pack,10,4.00
+2026-07-09,Perth,Pen pack,18,4.00
+2026-07-09,Perth,Desk lamp,4,32.00
+2026-07-09,Perth,Notebook,13,6.50
+2026-07-09,Fremantle,Desk lamp,1,32.00
+2026-07-09,Fremantle,Pen pack,9,4.00
+2026-07-09,Joondalup,Notebook,10,6.50
+2026-07-09,Joondalup,Pen pack,12,4.00
+2026-07-10,Perth,Desk lamp,3,32.00
+2026-07-10,Fremantle,Pen pack,9,4.00
+2026-07-10,Joondalup,Desk lamp,2,32.00
+2026-07-10,Joondalup,Notebook,5,6.50
+2026-07-11,Perth,Pen pack,22,4.00
+2026-07-11,Fremantle,Desk lamp,2,32.00
+2026-07-11,Fremantle,Pen pack,16,4.00
+2026-07-11,Joondalup,Desk lamp,2,32.00
+2026-07-12,Perth,Notebook,10,6.50
+2026-07-12,Perth,Desk lamp,2,32.00
+2026-07-12,Fremantle,Pen pack,10,4.00
+2026-07-12,Fremantle,Notebook,9,6.50
+2026-07-12,Joondalup,Notebook,5,6.50
+2026-07-12,Joondalup,Desk lamp,1,32.00
+2026-07-13,Perth,Desk lamp,3,32.00
+2026-07-13,Perth,Pen pack,17,4.00
+2026-07-13,Perth,Notebook,12,6.50
+2026-07-13,Fremantle,Notebook,10,6.50
+2026-07-13,Joondalup,Desk lamp,1,32.00
+2026-07-14,Perth,Notebook,8,6.50
+2026-07-14,Perth,Desk lamp,4,32.00
+2026-07-14,Fremantle,Notebook,8,6.50
+2026-07-14,Fremantle,Pen pack,10,4.00
+2026-07-14,Joondalup,Pen pack,13,4.00
+2026-07-14,Joondalup,Notebook,7,6.50
+2026-07-14,Joondalup,Desk lamp,2,32.00
+2026-07-15,Perth,Desk lamp,3,32.00
+2026-07-15,Perth,Notebook,11,6.50
+2026-07-15,Perth,Pen pack,21,4.00
+2026-07-15,Fremantle,Notebook,6,6.50
+2026-07-15,Fremantle,Pen pack,13,4.00
+2026-07-15,Joondalup,Pen pack,7,4.00
+2026-07-15,Joondalup,Notebook,7,6.50
+2026-07-16,Perth,Notebook,17,6.50
+2026-07-16,Fremantle,Notebook,12,6.50
+2026-07-16,Fremantle,Desk lamp,1,32.00
+2026-07-16,Joondalup,Pen pack,7,4.00
+2026-07-16,Joondalup,Desk lamp,1,32.00
+2026-07-16,Joondalup,Notebook,6,6.50
+2026-07-17,Perth,Desk lamp,3,32.00
+2026-07-17,Perth,Notebook,13,6.50
+2026-07-17,Fremantle,Notebook,10,6.50
+2026-07-17,Fremantle,Pen pack,15,4.00
+2026-07-17,Joondalup,Pen pack,9,4.00
+2026-07-18,Perth,Pen pack,23,4.00
+2026-07-18,Perth,Notebook,12,6.50
+2026-07-18,Perth,Desk lamp,3,32.00
+2026-07-18,Fremantle,Desk lamp,2,32.00
+2026-07-18,Fremantle,Notebook,10,6.50
+2026-07-18,Joondalup,Notebook,6,6.50
+2026-07-19,Perth,Desk lamp,2,32.00
+2026-07-19,Perth,Notebook,16,6.50
+2026-07-19,Perth,Pen pack,15,4.00
+2026-07-19,Fremantle,Desk lamp,2,32.00
+2026-07-19,Fremantle,Notebook,8,6.50
+2026-07-19,Joondalup,Notebook,7,6.50
+2026-07-19,Joondalup,Desk lamp,1,32.00
+2026-07-20,Perth,Notebook,13,6.50
+2026-07-20,Fremantle,Pen pack,9,4.00
+2026-07-20,Fremantle,Desk lamp,1,32.00
+2026-07-20,Joondalup,Notebook,9,6.50
+2026-07-20,Joondalup,Desk lamp,1,32.00
+2026-07-21,Perth,Desk lamp,2,32.00
+2026-07-21,Perth,Pen pack,23,4.00
+2026-07-21,Perth,Notebook,13,6.50
+2026-07-21,Fremantle,Desk lamp,2,32.00
+2026-07-21,Fremantle,Pen pack,14,4.00
+2026-07-21,Joondalup,Notebook,5,6.50
+2026-07-21,Joondalup,Pen pack,12,4.00
+2026-07-21,Joondalup,Desk lamp,1,32.00
+2026-07-22,Perth,Desk lamp,2,32.00
+2026-07-22,Fremantle,Notebook,8,6.50
+2026-07-22,Joondalup,Desk lamp,1,32.00
+2026-07-22,Joondalup,Notebook,5,6.50
+2026-07-22,Joondalup,Pen pack,8,4.00
+2026-07-23,Perth,Pen pack,22,4.00
+2026-07-23,Perth,Notebook,16,6.50
+2026-07-23,Perth,Desk lamp,2,32.00
+2026-07-23,Fremantle,Desk lamp,3,32.00
+2026-07-23,Fremantle,Notebook,11,6.50
+2026-07-23,Joondalup,Desk lamp,1,32.00
+2026-07-23,Joondalup,Pen pack,10,4.00
+2026-07-23,Joondalup,Notebook,,6.50
+2026-07-24,Perth,Desk lamp,3,32.00
+2026-07-24,Perth,Notebook,12,6.50
+2026-07-24,Fremantle,Pen pack,13,4.00
+2026-07-24,Fremantle,Notebook,7,6.50
+2026-07-24,Joondalup,Notebook,10,6.50
+2026-07-24,Joondalup,Pen pack,6,4.00
+2026-07-25,Perth,Desk lamp,2,32.00
+2026-07-25,Fremantle,Notebook,11,6.50
+2026-07-25,Joondalup,Desk lamp,1,32.00
+2026-07-25,Joondalup,Pen pack,12,4.00
+2026-07-25,Joondalup,Notebook,9,6.50
+2026-07-26,Perth,Desk lamp,4,32.00
+2026-07-26,Perth,Notebook,8,6.50
+2026-07-26,Fremantle,Pen pack,8,4.00
+2026-07-26,Fremantle,Notebook,6,6.50
+2026-07-26,Joondalup,Pen pack,6,4.00
+2026-07-26,Joondalup,Notebook,8,6.50
+2026-07-26,Joondalup,Desk lamp,1,32.00
+2026-07-27,Perth,Notebook,17,6.50
+2026-07-27,Perth,Desk lamp,2,32.00
+2026-07-27,Fremantle,Pen pack,11,4.00
+2026-07-27,Fremantle,Desk lamp,,32.00
+2026-07-27,Fremantle,Notebook,9,6.50
+2026-07-27,Joondalup,Notebook,6,6.50
+2026-07-27,Joondalup,Pen pack,8,4.00
+2026-07-27,Joondalup,Desk lamp,,32.00
+2026-07-28,Perth,Notebook,9,6.50
+2026-07-28,Fremantle,Notebook,9,6.50
+2026-07-28,Joondalup,Pen pack,10,4.00
+2026-07-28,Joondalup,Notebook,4,6.50
+2026-07-28,Joondalup,Desk lamp,2,32.00
+2026-07-29,Perth,Desk lamp,4,32.00
+2026-07-29,Fremantle,Pen pack,14,4.00
+2026-07-29,Joondalup,Desk lamp,1,32.00
+2026-07-29,Joondalup,Notebook,5,6.50
+2026-07-29,Joondalup,Pen pack,9,4.00
+2026-07-30,Perth,Notebook,15,6.50
+2026-07-30,Perth,Desk lamp,4,32.00
+2026-07-30,Perth,Pen pack,21,4.00
+2026-07-30,Fremantle,Desk lamp,2,32.00
+2026-07-30,Fremantle,Notebook,6,6.50
+2026-07-30,Joondalup,Desk lamp,2,32.00
+2026-07-30,Joondalup,Notebook,5,6.50
+2026-07-31,Perth,Notebook,15,6.50
+2026-07-31,Fremantle,Pen pack,14,4.00
+2026-07-31,Fremantle,Desk lamp,1,32.00
+2026-07-31,Joondalup,Desk lamp,2,32.00
+2026-08-01,Perth,Desk lamp,3,32.00
+2026-08-01,Perth,Notebook,17,6.50
+2026-08-01,Fremantle,Notebook,11,6.50
+2026-08-01,Fremantle,Desk lamp,2,32.00
+2026-08-01,Fremantle,Pen pack,16,4.00
+2026-08-01,Joondalup,Desk lamp,2,32.00
+2026-08-01,Joondalup,Pen pack,11,4.00
+2026-08-01,Joondalup,Notebook,8,6.50
+2026-08-02,Perth,Desk lamp,3,32.00
+2026-08-02,Perth,Notebook,10,6.50
+2026-08-02,Fremantle,Notebook,6,6.50
+2026-08-02,Fremantle,Desk lamp,1,32.00
+2026-08-02,Joondalup,Notebook,6,6.50
+2026-08-02,Joondalup,Pen pack,9,4.00
+2026-08-02,Joondalup,Desk lamp,2,32.00
+2026-08-03,Perth,Notebook,16,6.50
+2026-08-03,Fremantle,Notebook,7,6.50
+2026-08-03,Fremantle,Desk lamp,2,32.00
+2026-08-03,Joondalup,Pen pack,11,4.00
+2026-08-03,Joondalup,Notebook,10,6.50
+2026-08-04,Perth,Notebook,12,6.50
+2026-08-04,Perth,Pen pack,13,4.00
+2026-08-04,Fremantle,Pen pack,11,4.00
+2026-08-04,Fremantle,Notebook,8,6.50
+2026-08-04,Joondalup,Desk lamp,1,32.00
+2026-08-04,Joondalup,Notebook,7,6.50
+2026-08-05,Perth,Notebook,9,6.50
+2026-08-05,Fremantle,Desk lamp,2,32.00
+2026-08-05,Fremantle,Notebook,6,6.50
+2026-08-05,Joondalup,Desk lamp,2,32.00
+2026-08-05,Joondalup,Notebook,6,6.50
+2026-08-06,Perth,Desk lamp,4,32.00
+2026-08-06,Perth,Notebook,16,6.50
+2026-08-06,Perth,Pen pack,14,4.00
+2026-08-06,Fremantle,Pen pack,15,4.00
+2026-08-06,Fremantle,Desk lamp,2,32.00
+2026-08-06,Joondalup,Desk lamp,1,32.00
+2026-08-06,Joondalup,Pen pack,7,4.00
+2026-08-07,Perth,Notebook,16,6.50
+2026-08-07,Perth,Pen pack,19,4.00
+2026-08-07,Fremantle,Pen pack,12,4.00
+2026-08-07,Joondalup,Notebook,8,6.50
+2026-08-07,Joondalup,Pen pack,9,4.00
+2026-08-08,Perth,Desk lamp,3,32.00
+2026-08-08,Fremantle,Notebook,10,6.50
+2026-08-08,Fremantle,Pen pack,13,4.00
+2026-08-08,Joondalup,Pen pack,8,4.00
+2026-08-08,Joondalup,Notebook,5,6.50
+2026-08-08,Joondalup,Desk lamp,2,32.00
+2026-08-09,Perth,Desk lamp,2,32.00
+2026-08-09,Perth,Pen pack,12,4.00
+2026-08-09,Perth,Notebook,13,6.50
+2026-08-09,Fremantle,Pen pack,15,4.00
+2026-08-09,Fremantle,Notebook,7,6.50
+2026-08-09,Joondalup,Desk lamp,2,32.00
+2026-08-09,Joondalup,Pen pack,11,4.00
+2026-08-10,Perth,Notebook,16,6.50
+2026-08-10,Perth,Pen pack,20,4.00
+2026-08-10,Fremantle,Desk lamp,1,32.00
+2026-08-10,Fremantle,Notebook,9,6.50
+2026-08-10,Fremantle,Pen pack,13,4.00
+2026-08-10,Joondalup,Notebook,9,6.50
+2026-08-11,Perth,Pen pack,17,4.00
+2026-08-11,Perth,Notebook,10,6.50
+2026-08-11,Fremantle,Pen pack,15,4.00
+2026-08-11,Fremantle,Notebook,12,6.50
+2026-08-11,Joondalup,Desk lamp,2,32.00
+2026-08-11,Joondalup,Pen pack,10,4.00
+2026-08-12,Perth,Desk lamp,2,32.00
+2026-08-12,Perth,Notebook,11,6.50
+2026-08-12,Fremantle,Notebook,10,6.50
+2026-08-12,Fremantle,Desk lamp,1,32.00
+2026-08-12,Joondalup,Pen pack,10,4.00
+2026-08-13,Perth,Desk lamp,2,32.00
+2026-08-13,Fremantle,Pen pack,16,4.00
+2026-08-13,Fremantle,Notebook,13,6.50
+2026-08-13,Fremantle,Desk lamp,1,32.00
+2026-08-13,Joondalup,Desk lamp,1,32.00
+2026-08-13,Joondalup,Pen pack,8,4.00
+2026-08-14,Perth,Desk lamp,3,32.00
+2026-08-14,Perth,Pen pack,15,4.00
+2026-08-14,Fremantle,Desk lamp,1,32.00
+2026-08-14,Fremantle,Pen pack,16,4.00
+2026-08-14,Joondalup,Pen pack,10,4.00
+2026-08-14,Joondalup,Desk lamp,1,32.00
+2026-08-15,Perth,Pen pack,13,4.00
+2026-08-15,Perth,Notebook,15,6.50
+2026-08-15,Perth,Desk lamp,3,32.00
+2026-08-15,Fremantle,Desk lamp,2,32.00
+2026-08-15,Fremantle,Notebook,8,6.50
+2026-08-15,Fremantle,Pen pack,11,4.00
+2026-08-15,Joondalup,Desk lamp,2,32.00
+2026-08-15,Joondalup,Pen pack,13,4.00
+2026-08-16,Perth,Notebook,11,6.50
+2026-08-16,Fremantle,Desk lamp,2,32.00
+2026-08-16,Fremantle,Notebook,10,6.50
+2026-08-16,Joondalup,Pen pack,11,4.00
+2026-08-16,Joondalup,Desk lamp,2,32.00
+2026-08-17,Perth,Notebook,12,6.50
+2026-08-17,Fremantle,Pen pack,10,4.00
+2026-08-17,Joondalup,Desk lamp,1,32.00
+2026-08-17,Joondalup,Pen pack,9,4.00
+2026-08-18,Perth,Desk lamp,2,32.00
+2026-08-18,Perth,Notebook,18,6.50
+2026-08-18,Perth,Pen pack,20,4.00
+2026-08-18,Fremantle,Desk lamp,2,32.00
+2026-08-18,Joondalup,Notebook,5,6.50
+2026-08-19,Perth,Pen pack,12,4.00
+2026-08-19,Perth,Notebook,12,6.50
+2026-08-19,Fremantle,Pen pack,15,4.00
+2026-08-19,Joondalup,Desk lamp,1,32.00
+2026-08-19,Joondalup,Notebook,8,6.50
+2026-08-20,Perth,Notebook,15,6.50
+2026-08-20,Perth,Desk lamp,3,32.00
+2026-08-20,Fremantle,Pen pack,11,4.00
+2026-08-20,Fremantle,Desk lamp,3,32.00
+2026-08-20,Joondalup,Notebook,11,6.50
+2026-08-20,Joondalup,Pen pack,10,4.00
+2026-08-20,Joondalup,Desk lamp,2,32.00
+2026-08-21,Perth,Notebook,13,6.50
+2026-08-21,Perth,Pen pack,22,4.00
+2026-08-21,Fremantle,Pen pack,12,4.00
+2026-08-21,Joondalup,Notebook,7,6.50
+2026-08-22,Perth,Notebook,10,6.50
+2026-08-22,Perth,Desk lamp,2,32.00
+2026-08-22,Fremantle,Notebook,9,6.50
+2026-08-22,Fremantle,Pen pack,12,4.00
+2026-08-22,Joondalup,Notebook,6,6.50
+2026-08-22,Joondalup,Pen pack,7,4.00
+2026-08-23,Perth,Desk lamp,2,32.00
+2026-08-23,Perth,Pen pack,14,4.00
+2026-08-23,Perth,Notebook,12,6.50
+2026-08-23,Fremantle,Pen pack,15,4.00
+2026-08-23,Fremantle,Desk lamp,3,32.00
+2026-08-23,Joondalup,Desk lamp,2,32.00
+2026-08-23,Joondalup,Pen pack,7,4.00
+2026-08-24,Perth,Pen pack,28,4.00
+2026-08-24,Perth,Notebook,12,6.50
+2026-08-24,Perth,Desk lamp,2,32.00
+2026-08-24,Fremantle,Desk lamp,3,32.00
+2026-08-24,Fremantle,Pen pack,17,4.00
+2026-08-24,Fremantle,Notebook,8,6.50
+2026-08-24,Joondalup,Pen pack,12,4.00
+2026-08-24,Joondalup,Notebook,6,6.50
+2026-08-24,Joondalup,Desk lamp,1,32.00
+2026-08-25,Perth,Pen pack,17,4.00
+2026-08-25,Perth,Desk lamp,4,32.00
+2026-08-25,Fremantle,Pen pack,10,4.00
+2026-08-25,Fremantle,Desk lamp,2,32.00
+2026-08-25,Fremantle,Notebook,8,6.50
+2026-08-25,Joondalup,Desk lamp,1,32.00
+2026-08-25,Joondalup,Notebook,8,6.50
+2026-08-26,Perth,Notebook,20,6.50
+2026-08-26,Perth,Desk lamp,4,32.00
+2026-08-26,Fremantle,Pen pack,14,4.00
+2026-08-26,Fremantle,Desk lamp,3,32.00
+2026-08-26,Joondalup,Notebook,10,6.50
+2026-08-26,Joondalup,Pen pack,16,4.00
+2026-08-26,Joondalup,Desk lamp,1,32.00
+2026-08-27,Perth,Desk lamp,4,32.00
+2026-08-27,Perth,Pen pack,29,4.00
+2026-08-27,Fremantle,Pen pack,13,4.00
+2026-08-27,Fremantle,Notebook,15,6.50
+2026-08-27,Joondalup,Notebook,7,6.50
+2026-08-27,Joondalup,Desk lamp,3,32.00
+2026-08-28,Perth,Notebook,13,6.50
+2026-08-28,Perth,Pen pack,15,4.00
+2026-08-28,Perth,Desk lamp,2,32.00
+2026-08-28,Fremantle,Pen pack,16,4.00
+2026-08-28,Fremantle,Notebook,11,6.50
+2026-08-28,Joondalup,Notebook,12,6.50
+2026-08-28,Joondalup,Desk lamp,3,32.00
+2026-08-29,Perth,Desk lamp,2,32.00
+2026-08-29,Perth,Pen pack,24,4.00
+2026-08-29,Perth,Notebook,15,6.50
+2026-08-29,Fremantle,Desk lamp,2,32.00
+2026-08-29,Fremantle,Pen pack,15,4.00
+2026-08-29,Joondalup,Pen pack,8,4.00
+2026-08-29,Joondalup,Desk lamp,1,32.00
+2026-08-30,Perth,Notebook,13,6.50
+2026-08-30,Perth,Pen pack,26,4.00
+2026-08-30,Fremantle,Notebook,8,6.50
+2026-08-30,Fremantle,Desk lamp,3,32.00
+2026-08-30,Joondalup,Notebook,9,6.50
+2026-08-30,Joondalup,Desk lamp,3,32.00
+2026-08-30,Joondalup,Pen pack,16,4.00
+2026-08-31,Perth,Notebook,17,6.50
+2026-08-31,Perth,Pen pack,15,4.00
+2026-08-31,Perth,Desk lamp,4,32.00
+2026-08-31,Fremantle,Notebook,10,6.50
+2026-08-31,Fremantle,Desk lamp,2,32.00
+2026-08-31,Joondalup,Notebook,6,6.50
+2026-08-31,Joondalup,Pen pack,11,4.00
+2026-09-01,Perth,Desk lamp,4,32.00
+2026-09-01,Fremantle,Pen pack,17,4.00
+2026-09-01,Fremantle,Notebook,14,6.50
+2026-09-01,Joondalup,Notebook,6,6.50
+2026-09-01,Joondalup,Desk lamp,2,32.00
+2026-09-01,Joondalup,Pen pack,15,4.00
+2026-09-02,Perth,Desk lamp,3,32.00
+2026-09-02,Perth,Notebook,11,6.50
+2026-09-02,Perth,Pen pack,15,4.00
+2026-09-02,Fremantle,Desk lamp,3,32.00
+2026-09-02,Fremantle,Pen pack,15,4.00
+2026-09-02,Fremantle,Notebook,9,6.50
+2026-09-02,Joondalup,Desk lamp,2,32.00
+2026-09-02,Joondalup,Notebook,10,6.50
+2026-09-03,Perth,Desk lamp,3,32.00
+2026-09-03,Fremantle,Pen pack,11,4.00
+2026-09-03,Fremantle,Notebook,10,6.50
+2026-09-03,Joondalup,Pen pack,17,4.00
+2026-09-04,Perth,Pen pack,15,4.00
+2026-09-04,Perth,Desk lamp,4,32.00
+2026-09-04,Fremantle,Desk lamp,3,32.00
+2026-09-04,Fremantle,Notebook,15,6.50
+2026-09-04,Joondalup,Notebook,14,6.50
+2026-09-04,Joondalup,Desk lamp,2,32.00
+2026-09-05,Perth,Pen pack,19,4.00
+2026-09-05,Perth,Notebook,21,6.50
+2026-09-05,Perth,Desk lamp,3,32.00
+2026-09-05,Fremantle,Notebook,15,6.50
+2026-09-05,Fremantle,Desk lamp,2,32.00
+2026-09-05,Joondalup,Desk lamp,2,32.00
+2026-09-06,Perth,Notebook,19,6.50
+2026-09-06,Fremantle,Notebook,16,6.50
+2026-09-06,Fremantle,Desk lamp,2,32.00
+2026-09-06,Joondalup,Pen pack,19,4.00
+2026-09-06,Joondalup,Notebook,11,6.50
+2026-09-06,Joondalup,Desk lamp,2,32.00
+2026-09-07,Perth,Desk lamp,4,32.00
+2026-09-07,Perth,Notebook,15,6.50
+2026-09-07,Fremantle,Notebook,10,6.50
+2026-09-07,Fremantle,Desk lamp,3,32.00
+2026-09-07,Joondalup,Notebook,11,6.50
+2026-09-07,Joondalup,Pen pack,9,4.00
+2026-09-08,Perth,Notebook,24,6.50
+2026-09-08,Perth,Pen pack,30,4.00
+2026-09-08,Fremantle,Notebook,14,6.50
+2026-09-08,Fremantle,Desk lamp,4,32.00
+2026-09-08,Joondalup,Desk lamp,3,32.00
+2026-09-08,Joondalup,Notebook,9,6.50
+2026-09-09,Perth,Pen pack,31,4.00
+2026-09-09,Perth,Notebook,16,6.50
+2026-09-09,Fremantle,Notebook,14,6.50
+2026-09-09,Fremantle,Desk lamp,2,32.00
+2026-09-09,Joondalup,Desk lamp,3,32.00
+2026-09-10,Perth,Pen pack,22,4.00
+2026-09-10,Fremantle,Notebook,18,6.50
+2026-09-10,Fremantle,Desk lamp,2,32.00
+2026-09-10,Joondalup,Pen pack,12,4.00
+2026-09-10,Joondalup,Notebook,7,6.50
+2026-09-10,Joondalup,Desk lamp,2,32.00
+2026-09-11,Perth,Notebook,12,6.50
+2026-09-11,Perth,Pen pack,36,4.00
+2026-09-11,Perth,Desk lamp,6,32.00
+2026-09-11,Fremantle,Pen pack,25,4.00
+2026-09-11,Fremantle,Notebook,12,6.50
+2026-09-11,Joondalup,Pen pack,17,4.00
+2026-09-11,Joondalup,Notebook,8,6.50
+2026-09-12,Perth,Notebook,24,6.50
+2026-09-12,Perth,Pen pack,31,4.00
+2026-09-12,Fremantle,Desk lamp,2,32.00
+2026-09-12,Fremantle,Notebook,17,6.50
+2026-09-12,Joondalup,Notebook,7,6.50
+2026-09-12,Joondalup,Pen pack,10,4.00
+2026-09-13,Perth,Notebook,13,6.50
+2026-09-13,Perth,Desk lamp,6,32.00
+2026-09-13,Fremantle,Pen pack,23,4.00
+2026-09-13,Fremantle,Desk lamp,4,32.00
+2026-09-13,Joondalup,Notebook,9,6.50
+2026-09-13,Joondalup,Desk lamp,3,32.00
+2026-09-13,Joondalup,Pen pack,12,4.00
+2026-09-14,Perth,Desk lamp,3,32.00
+2026-09-14,Perth,Pen pack,31,4.00
+2026-09-14,Perth,Notebook,17,6.50
+2026-09-14,Fremantle,Pen pack,21,4.00
+2026-09-14,Fremantle,Desk lamp,3,32.00
+2026-09-14,Joondalup,Pen pack,9,4.00
+2026-09-15,Perth,Notebook,16,6.50
+2026-09-15,Perth,Desk lamp,5,32.00
+2026-09-15,Perth,Pen pack,19,4.00
+2026-09-15,Fremantle,Notebook,18,6.50
+2026-09-15,Joondalup,Desk lamp,3,32.00
+2026-09-15,Joondalup,Pen pack,10,4.00
+2026-09-16,Perth,Desk lamp,6,32.00
+2026-09-16,Perth,Notebook,19,6.50
+2026-09-16,Perth,Pen pack,33,4.00
+2026-09-16,Fremantle,Desk lamp,3,32.00
+2026-09-16,Fremantle,Pen pack,19,4.00
+2026-09-16,Joondalup,Desk lamp,3,32.00
+2026-09-16,Joondalup,Pen pack,14,4.00
+2026-09-16,Joondalup,Notebook,16,6.50
+2026-09-17,Perth,Notebook,27,6.50
+2026-09-17,Fremantle,Notebook,19,6.50
+2026-09-17,Fremantle,Pen pack,27,4.00
+2026-09-17,Joondalup,Notebook,11,6.50
+2026-09-17,Joondalup,Pen pack,16,4.00
+2026-09-18,Perth,Pen pack,26,4.00
+2026-09-18,Perth,Desk lamp,5,32.00
+2026-09-18,Fremantle,Pen pack,17,4.00
+2026-09-18,Fremantle,Desk lamp,4,32.00
+2026-09-18,Fremantle,Notebook,15,6.50
+2026-09-18,Joondalup,Notebook,9,6.50
+2026-09-19,Perth,Desk lamp,4,32.00
+2026-09-19,Perth,Notebook,24,6.50
+2026-09-19,Fremantle,Desk lamp,4,32.00
+2026-09-19,Joondalup,Notebook,10,6.50
+2026-09-19,Joondalup,Pen pack,13,4.00
+2026-09-19,Joondalup,Desk lamp,3,32.00
+2026-09-20,Perth,Notebook,23,6.50
+2026-09-20,Perth,Desk lamp,6,32.00
+2026-09-20,Fremantle,Notebook,10,6.50
+2026-09-20,Joondalup,Notebook,10,6.50
+2026-09-20,Joondalup,Pen pack,21,4.00
+2026-09-21,Perth,Desk lamp,7,32.00
+2026-09-21,Perth,Notebook,15,6.50
+2026-09-21,Perth,Pen pack,19,4.00
+2026-09-21,Fremantle,Pen pack,21,4.00
+2026-09-21,Fremantle,Notebook,20,6.50
+2026-09-21,Joondalup,Desk lamp,4,32.00
+2026-09-22,Perth,Notebook,24,6.50
+2026-09-22,Perth,Pen pack,20,4.00
+2026-09-22,Perth,Desk lamp,4,32.00
+2026-09-22,Fremantle,Desk lamp,4,32.00
+2026-09-22,Fremantle,Pen pack,26,4.00
+2026-09-22,Joondalup,Pen pack,18,4.00
+2026-09-22,Joondalup,Desk lamp,3,32.00
+2026-09-23,Perth,Desk lamp,5,32.00
+2026-09-23,Fremantle,Notebook,20,6.50
+2026-09-23,Fremantle,Desk lamp,3,32.00
+2026-09-23,Fremantle,Pen pack,21,4.00
+2026-09-23,Joondalup,Notebook,14,6.50
+2026-09-24,Perth,Pen pack,22,4.00
+2026-09-24,Perth,Notebook,16,6.50
+2026-09-24,Fremantle,Notebook,22,6.50
+2026-09-24,Fremantle,Pen pack,27,4.00
+2026-09-24,Joondalup,Notebook,13,6.50
+2026-09-24,Joondalup,Desk lamp,2,32.00
+2026-09-25,Perth,Notebook,28,6.50
+2026-09-25,Perth,Pen pack,42,4.00
+2026-09-25,Fremantle,Desk lamp,3,32.00
+2026-09-25,Fremantle,Pen pack,15,4.00
+2026-09-25,Joondalup,Desk lamp,3,32.00
+2026-09-25,Joondalup,Pen pack,18,4.00
+2026-09-25,Joondalup,Notebook,10,6.50
+2026-09-26,Perth,Pen pack,20,4.00
+2026-09-26,Perth,Notebook,27,6.50
+2026-09-26,Fremantle,Desk lamp,5,32.00
+2026-09-26,Fremantle,Pen pack,25,4.00
+2026-09-26,Joondalup,Notebook,14,6.50
+2026-09-26,Joondalup,Pen pack,15,4.00
+2026-09-27,Perth,Desk lamp,5,32.00
+2026-09-27,Fremantle,Desk lamp,3,32.00
+2026-09-27,Joondalup,Desk lamp,2,32.00
+2026-09-27,Joondalup,Pen pack,13,4.00
+2026-09-27,Joondalup,Notebook,16,6.50
+2026-09-28,Perth,Notebook,22,6.50
+2026-09-28,Perth,Pen pack,25,4.00
+2026-09-28,Fremantle,Notebook,24,6.50
+2026-09-28,Fremantle,Pen pack,20,4.00
+2026-09-28,Joondalup,Notebook,18,6.50
+2026-09-28,Joondalup,Desk lamp,4,32.00
+2026-09-28,Joondalup,Pen pack,25,4.00
+2026-09-29,Perth,Pen pack,43,4.00
+2026-09-29,Perth,Desk lamp,3,32.00
+2026-09-29,Perth,Notebook,26,6.50
+2026-09-29,Fremantle,Notebook,18,6.50
+2026-09-29,Fremantle,Pen pack,24,4.00
+2026-09-29,Joondalup,Notebook,11,6.50
+2026-09-29,Joondalup,Pen pack,24,4.00
+2026-09-30,Perth,Desk lamp,4,32.00
+2026-09-30,Perth,Pen pack,29,4.00
+2026-09-30,Fremantle,Desk lamp,3,32.00
+2026-09-30,Fremantle,Pen pack,30,4.00
+2026-09-30,Joondalup,Notebook,13,6.50
+2026-09-30,Joondalup,Desk lamp,2,32.00
+2026-09-30,Joondalup,Pen pack,21,4.00
