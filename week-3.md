@@ -122,6 +122,12 @@ Only if you have time and are curious.
 
 - The Level 2 exercises in each section.
 - The stretch in the Build: `file_hash` and `verify_file`.
+
+**More videos: Data with Baraa, Python Ultimate Course**
+
+These lessons are from a different presenter. They are longer than the core videos, so treat them as extra explanation when you want more detail. Find them in the [playlist](https://www.youtube.com/playlist?list=PLNcg_FV9n7qZGfFl2ANI_zISzNp257Lwn).
+
+- [Data with Baraa] [Python Boolean Functions](https://www.youtube.com/watch?v=v8tuWg_rvjE&list=PLNcg_FV9n7qZGfFl2ANI_zISzNp257Lwn) (8:40)
 - Python Software Foundation (2026) *hashlib — Secure hashes and message digests*. Available at: https://docs.python.org/3/library/hashlib.html (Accessed: 11 November 2026).
 
 ---
