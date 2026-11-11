@@ -1,6 +1,6 @@
 ---
 title: 'Week 3: Validation, integrity and a simple cipher'
-teaching: 94
+teaching: 111
 exercises: 166
 ---
 
@@ -50,22 +50,24 @@ By the end of this week you can:
 
 | Block | Time | What you do |
 |---|---|---|
-| Watch | 20 min | Three planned videos (below) |
+| Watch | 37 min | Three videos (below) |
 | Read & practise | 1 h 30 m | Sections 3.1 (35 min), 3.2 (30 min) and 3.3 (25 min), with Level 1 exercises |
 | Concepts Bridge | 30 min | [Hashing, encryption and encoding: what each is for](#week-3-bridge) |
 | Build | 2 h | [Password strength checker](#week-3-practice), your portfolio item for this week |
 | Quiz | 15 min | Canvas quiz, 6 questions |
-| **Total** | **4 h 35 min** | Under the 6 h cap |
+| **Total** | **4 h 52 min** | Under the 6 h cap |
 
-### Watch (20 min)
+### Watch (37 min)
 
-Watch in this order. Pause and try things in PyCharm as you go.
+Watch these in order. Pause and try the code yourself in PyCharm. The videos are from different presenters, so the style changes from video to video.
 
-| # | Video | Length | Look out for | Link |
-|---|---|---|---|---|
-| 1 | Checking user input (validation) | 6 min (planned) | What validation is, and the kinds of check. | To be sourced and checked |
-| 2 | What a hash is | 8 min (planned) | Fixed length, same input gives the same hash, and a tiny change gives a very different hash. | To be sourced and checked |
-| 3 | The Caesar cipher | 6 min (planned) | How the shift works, and how few keys there are. | To be sourced and checked |
+| # | Video | Length | Look out for |
+|---|---|---|---|
+| 1 | [Fabio Musanni] [How to Validate User Inputs in Python](https://www.youtube.com/watch?v=LUWyA3m_-r0) | 14:14 | What validation is, and the kinds of check you can make on input. |
+| 2 | [The Coding Gopher] [Hashing Explained (SHA-256, MD5)](https://www.youtube.com/watch?v=R_mOWu3s6y4) | 11:27 | Fixed length, the same input gives the same hash, and a tiny change gives a very different hash. |
+| 3 | [NeuralNine] [Simple Caesar Encryption in Python](https://www.youtube.com/watch?v=JEsUlx0Ps9k) | 10:27 | How the shift works. The Caesar cipher is a teaching cipher. It is not secure. |
+
+**Total: 36 min 8 s, shown as 37 min.**
 
 ### Read & practise (1 h 30 m)
 

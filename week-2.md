@@ -1,6 +1,6 @@
 ---
 title: 'Week 2: Files and structured data'
-teaching: 113
+teaching: 120
 exercises: 172
 ---
 
@@ -56,22 +56,24 @@ By the end of this week you can:
 
 | Block | Time | What you do |
 |---|---|---|
-| Watch | 30 min | Three videos (below) |
+| Watch | 37 min | Three videos (below) |
 | Read & practise | 1 h 45 min | Sections 2.1 to 2.4, with Level 1 exercises |
 | Concepts Bridge | 30 min | [Trusting data from outside](#week-2-bridge) |
 | Build | 2 h | [Web-log converter, and save and load for the library](#week-2-practice), your portfolio item for this week |
 | Quiz | 15 min | Canvas quiz, 6 questions |
-| **Total** | **5 h 0 min** | Under the 6 h cap |
+| **Total** | **5 h 7 min** | Under the 6 h cap |
 
-### Watch (30 min)
+### Watch (37 min)
 
-Watch in this order. Pause and try things in PyCharm as you go.
+Watch these in order. Pause and try the code yourself in PyCharm. The videos are from different presenters, so the style changes from video to video.
 
 | # | Video | Length | Look out for |
 |---|---|---|---|
-| 1 | Reading and writing text files in Python | 10 min (planned) | To be sourced and checked |
-| 2 | CSV files with the `csv` module | 10 min (planned) | To be sourced and checked |
-| 3 | JSON in Python | 10 min (planned) | To be sourced and checked |
+| 1 | [Visually Explained] [Python File Handling - Visually Explained](https://www.youtube.com/watch?v=PXySDMxOPnI) | 14:15 | How to open a file, the modes for reading and writing, and why `with` closes the file for you. |
+| 2 | [Corey Schafer] [Python Tutorial: CSV Module - How to Read, Parse, and Write CSV Files](https://www.youtube.com/watch?v=q5uM4VKywbA) | 16:11 | How the `csv` module reads and writes rows, as lists and as dictionaries. |
+| 3 | [Tech With Tim] [How To Use JSON In Python](https://www.youtube.com/watch?v=-51jxlQaxyA) | 6:11 | How JSON text becomes Python data, and how Python data becomes JSON text. |
+
+**Total: 36 min 37 s, shown as 37 min.**
 
 ### Read & practise (1 h 45 min)
 

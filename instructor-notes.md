@@ -4,10 +4,10 @@ title: 'Instructor Notes'
 
 ## About this course
 
-- Six weeks, **hard cap of 6 hours per week** (about 30 hours in total). Weeks 3 and 5 come in under 6 hours on purpose, and so do the others; the spare time is a buffer.
+- Six weeks, **hard cap of 6 hours per week** (about 31 hours in total). Weeks 3 and 5 come in under 6 hours on purpose, and so do the others; the spare time is a buffer.
 - This is Part 2 of a two-part course. Learners have finished Part 1. They are still beginners, mostly working adults who want to move into data work or cyber security. Part 2 serves both paths, and every week uses synthetic data made for the course.
 - Security content is defensive and analytical only: checking, detecting, hashing and reporting. There are no attack tools or exploit code. The Caesar cipher is taught as a weak teaching cipher, and the notes say so.
-- Videos are not chosen yet. Every Watch table lists the planned topics and lengths, marked "To be sourced and checked". Choose and check the videos before the first intake.
+- The videos were chosen from search results by title, channel and length, and each was confirmed to be public and playable on 11 November 2026. Nobody has watched them yet. Watch each one and confirm that it matches the lesson before the first intake. The videos come from several presenters, so the style changes within a week.
 - Editor: **PyCharm only** for Part 1 and Part 2 (free core).
 - The weeks of this course are numbered 1 to 6. A week from Part 1 is always written "Part 1 Week N".
 
@@ -17,11 +17,11 @@ Each week is one episode. Inside it are the week overview, the core sections, a 
 
 | Week | Watch | Read & practise | Bridge | Build | Quiz | Total |
 |---|---|---|---|---|---|---|
-| 1 | 30 m | 2 h | 30 m | 2 h | 15 m | 5 h 15 m |
-| 2 | 30 m | 1 h 45 m | 30 m | 2 h | 15 m | 5 h |
-| 3 | 20 m | 1 h 30 m | 30 m | 2 h | 15 m | 4 h 35 m |
-| 4 | 30 m | 1 h 45 m | 30 m | 2 h | 15 m | 5 h |
-| 5 | 20 m | 1 h 45 m | 30 m | 2 h | 15 m | 4 h 50 m |
+| 1 | 27 m | 2 h | 30 m | 2 h | 15 m | 5 h 12 m |
+| 2 | 37 m | 1 h 45 m | 30 m | 2 h | 15 m | 5 h 7 m |
+| 3 | 37 m | 1 h 30 m | 30 m | 2 h | 15 m | 4 h 52 m |
+| 4 | 34 m | 1 h 45 m | 30 m | 2 h | 15 m | 5 h 4 m |
+| 5 | 25 m | 1 h 45 m | 30 m | 2 h | 15 m | 4 h 55 m |
 | 6 | 20 m | 1 h 30 m | 30 m | 3 h | 15 m | 5 h 35 m |
 
 ## Practice tasks
@@ -51,5 +51,5 @@ Each week is one episode. Inside it are the week overview, the core sections, a 
 - The licence is not confirmed. The lesson text was written for this course, but ADCI has not chosen a licence. Confirm it, then update `license` in `config.yaml` and `LICENSE.md`.
 - The lesson uses The Carpentries Workbench for layout only; it is not a Carpentries lesson. The `carpentry: 'adci'` setting avoids Carpentries branding, and the ADCI logo comes from ADCI's fork of the theme (`varnish: 'ADCI-Perth/varnish'` in `config.yaml`; see `branding/`).
 - Replace the placeholder `contact` email in `config.yaml`, and add the links in `CODE_OF_CONDUCT.md`.
-- Source the videos, and check every link before each intake.
+- Watch each chosen video, and check every link before each intake.
 - Set up the Canvas quizzes. The question pools are in the course repository, in `curriculum/quizzes/`.
