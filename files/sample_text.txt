@@ -1,0 +1,21 @@
+The Quiet Server Room
+
+Every morning before the office opens, Olivia walks past the server room.
+The machines hum quietly behind the glass. She likes to stop at the small
+café on the ground floor, order a flat white, and read the overnight
+reports while the building wakes up.
+
+Most reports are dull, and dull is good. A dull report means the backups
+finished, the disks have space, and nobody tried to guess a password at
+two in the morning. Olivia has learned that the interesting days are the
+ones to worry about.
+
+Today the report is long. One address asked for the same page again and
+again, far more often than any person could. Olivia does not panic. She
+counts, she compares, and she writes down exactly what she sees. Good
+analysis begins with careful counting, and careful counting begins with
+clean data.
+
+By nine the office is busy, and the puzzle is solved. It was only a
+faulty script, written by a tired colleague. Olivia smiles, saves her
+notes, and finishes her coffee.

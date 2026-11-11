@@ -1,0 +1,101 @@
+#------------------------------------------------------------
+# Values for this lesson.
+#------------------------------------------------------------
+
+# Which carpentry is this (dc, hpcc, lc, swc, or cp)?
+# dc: Data Carpentry
+# hpcc: HPC Carpentry
+# lc: Library Carpentry
+# swc: Software Carpentry
+# cp: Carpentries (to use for instructor training for instance)
+# incubator: The Carpentries Incubator
+# Note that you can also use a custom carpentry type. For more info,
+# see the documentation: https://carpentries.github.io/sandpaper-docs/editing.html
+carpentry: 'adci'
+
+# Custom carpentry description
+# This will be used as the alt text for the logo
+carpentry_description: "ADCI"
+
+# Overall title for pages.
+title: 'Intro to Programming, Part 2'
+
+# Short description used in the page metadata (sandpaper reads the key 'desc')
+desc: 'Part 2 of a two-part beginner Python micro-credential from ADCI: text, files and logs, checking data, and NumPy, Pandas and Matplotlib for data science and cyber security (six weeks, at most 6 hours a week).'
+
+# Date the lesson was created (YYYY-MM-DD, this is empty by default)
+created: '2026-11-11'
+
+# Comma-separated list of keywords for the lesson
+keywords: 'python, data, cyber security, numpy, pandas, matplotlib, micro-credential, ADCI'
+
+# Life cycle stage of the lesson
+# refer to <https://docs.carpentries.org/resources/curriculum/lesson-life-cycle.html> for details
+# possible values: pre-alpha, alpha, beta, stable, retired
+life_cycle: 'alpha'
+
+# License of the lesson materials (recommended CC-BY 4.0)
+license: 'To be confirmed (see LICENSE)'
+
+# Link to the source repository for this lesson
+source: 'https://github.com/ADCI-Perth/intro-to-programming-part-2-workbench'
+
+# Default branch of your lesson
+branch: 'main'
+
+# Who to contact if there are any issues
+contact: 'FIXME-course-contact@adci.edu.au'
+
+# Navigation ------------------------------------------------
+#
+# Use the following menu items to specify the order of
+# individual pages in each dropdown section. Leave blank to
+# include all pages in the folder.
+#
+# Example -------------
+#
+# episodes:
+# - introduction.md
+# - first-steps.md
+#
+# learners:
+# - setup.md
+#
+# instructors:
+# - instructor-notes.md
+#
+# profiles:
+# - one-learner.md
+# - another-learner.md
+
+# Order of episodes in your lesson
+episodes:
+- week-1.md
+- week-2.md
+- week-3.md
+- week-4.md
+- week-5.md
+- week-6.md
+
+# Information for Learners
+learners:
+- setup.md
+- reference.md
+
+# Information for Instructors
+instructors:
+- instructor-notes.md
+
+# Learner Profiles
+profiles:
+- learner-profiles.md
+
+# Customisation ---------------------------------------------
+#
+# This space below is where custom yaml items (e.g. pinning
+# sandpaper and varnish versions) should live
+
+
+
+# ADCI fork of the theme, which holds the ADCI logo and favicons
+varnish: 'ADCI-Perth/varnish'
