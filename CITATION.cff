@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+title: 'Intro to Programming, Part 2: Data and Security with Python'
+message: >-
+  Please cite this lesson using the information in this file
+  when you refer to it in publications or adapt it.
+type: dataset
+authors:
+  - name: Australian Data and Cyber Institute (ADCI)
+abstract: >-
+  A six-week, beginner Python micro-credential (6 hours per week
+  or less), the second of two parts. It covers text, files and logs,
+  checking data and files, and NumPy, Pandas and Matplotlib for data
+  science and cyber security, with weekly Concepts Bridges and
+  practice tasks that use synthetic data.
+keywords:
+  - Python
+  - data science
+  - cyber security
+  - NumPy
+  - Pandas
+  - Matplotlib
+  - micro-credential
