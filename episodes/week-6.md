@@ -52,7 +52,7 @@ By the end of this week you can:
 
 | Block | Time | What you do |
 |---|---|---|
-| Watch | 20 min | Two videos (below) |
+| Watch | 20 min | Four videos (below) |
 | Read & practise | 1 h 30 m | Sections 6.1 (35 min), 6.2 (30 min) and 6.3 (25 min), with Level 1 exercises |
 | Concepts Bridge | 30 min | [Honest charts](#week-6-bridge) |
 | Build | 3 h | [Capstone: two charts and a written finding](#week-6-practice), your portfolio item for this week |
@@ -61,12 +61,16 @@ By the end of this week you can:
 
 ### Watch (20 min)
 
-Watch in this order. Pause and try things in PyCharm as you go.
+Watch these in order. Pause and try the code yourself in PyCharm. The videos are from different presenters, so the style changes from video to video.
 
-| # | Video | Length | Look out for | Link |
-|---|---|---|---|---|
-| 1 | Line and bar charts with Matplotlib | 12 min (planned) | How `plt.subplots()` makes the figure and axes. How to add a title and labels. | To be sourced and checked |
-| 2 | Honest and misleading charts | 8 min (planned) | How an axis that does not start at zero changes the impression. | To be sourced and checked |
+| # | Video | Length | Look out for |
+|---|---|---|---|
+| 1 | [Bro Code] [Matplotlib bar charts in 4 minutes!](https://www.youtube.com/watch?v=k7UJg2E-TyU) | 4:06 | How to make a bar chart, and how to add a title and labels. |
+| 2 | [WsCube Tech] [How to Plot a Line Chart in Python using Matplotlib - Tutorial and Examples](https://www.youtube.com/watch?v=uO4P3Yh2O-w) | 8:51 | How a line chart is drawn from two lists of values. |
+| 3 | [TED-Ed] [How to spot a misleading graph - Lea Gaslowitz](https://www.youtube.com/watch?v=E91bGT9BjYk) | 4:10 | How the way a graph is drawn can change the story it tells. |
+| 4 | [Vox] [Shut up about the y-axis. It shouldn’t always start at zero.](https://www.youtube.com/watch?v=14VYnFhBKcY) | 2:34 | Why bars must start at zero, but a line chart does not always have to. |
+
+**Total: 19 min 41 s, shown as 20 min.**
 
 ### Read & practise (1 h 30 m)
 

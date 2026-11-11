@@ -1,6 +1,6 @@
 ---
 title: 'Week 4: Libraries and NumPy'
-teaching: 113
+teaching: 117
 exercises: 172
 ---
 
@@ -53,22 +53,24 @@ By the end of this week you can:
 
 | Block | Time | What you do |
 |---|---|---|
-| Watch | 30 min | Three videos (below) |
+| Watch | 34 min | Three videos (below) |
 | Read & practise | 1 h 45 m | Sections 4.1 to 4.3, with Level 1 exercises |
 | Concepts Bridge | 30 min | [Why arrays are faster than lists](#week-4-bridge) |
 | Build | 2 h | [Login statistics with a z-score check](#week-4-practice), your portfolio item for this week |
 | Quiz | 15 min | Canvas quiz, 6 questions |
-| **Total** | **5 h 0 m** | Under the 6 h cap |
+| **Total** | **5 h 4 min** | Under the 6 h cap |
 
-### Watch (30 min)
+### Watch (34 min)
 
-Watch in this order. Pause and try things in PyCharm as you go.
+Watch these in order. Pause and try the code yourself in PyCharm. The videos are from different presenters, so the style changes from video to video.
 
-| # | Video | Length | Look out for | Link |
-|---|---|---|---|---|
-| 1 | pip and virtual environments in PyCharm | 10 min (planned) | What a virtual environment is, and where to see it in PyCharm. | To be sourced and checked |
-| 2 | NumPy arrays | 12 min (planned) | How an array differs from a list, and what `shape` means. | To be sourced and checked |
-| 3 | Mean, median and standard deviation | 8 min (planned) | What each number tells you about a set of values. | To be sourced and checked |
+| # | Video | Length | Look out for |
+|---|---|---|---|
+| 1 | [Max Rohowsky] [PyCharm Virtual Environments (venv) Explained!](https://www.youtube.com/watch?v=2P30W3TN4nI) | 10:46 | What a virtual environment is, and where to see it in PyCharm. |
+| 2 | [Tech With Tim] [Numpy Tutorial - Introduction to Arrays in Python](https://www.youtube.com/watch?v=biLz7KPgHJA) | 11:16 | How an array differs from a list, and what `shape` means. |
+| 3 | [ProgrammingKnowledge] [Python NumPy Tutorial For Beginners - Numpy Mean, Median, Mode, Standard Deviation in Python](https://www.youtube.com/watch?v=CysILm8mCcE) | 11:18 | What the mean, median and standard deviation each tell you about a set of values. You can skip the mode. |
+
+**Total: 33 min 20 s, shown as 34 min.**
 
 ### Read & practise (1 h 45 m)
 

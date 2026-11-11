@@ -1,6 +1,6 @@
 ---
 title: 'Week 1: Text and encoding'
-teaching: 122
+teaching: 119
 exercises: 178
 ---
 
@@ -54,12 +54,12 @@ By the end of this week you can:
 
 | Block | What you do | Time |
 |---|---|---|
-| Watch | 3 short videos | 30 min |
+| Watch | three short videos | 27 min |
 | Read & practise | Sections 1.1, 1.2 and 1.3, plus exercises | 2 h 0 m |
 | Concepts Bridge | Text is stored as numbers | 30 min |
 | Build | Practice task: a letter-frequency analyser | 2 h |
 | Quiz | Canvas quiz, 6 questions | 15 min |
-| **Total** | | **5 h 15 min** |
+| **Total** | | **5 h 12 min** |
 
 Suggested split for Read & practise: Section 1.1 (45 min), Section 1.2 (45 min), Section 1.3 (30 min).
 
@@ -67,17 +67,17 @@ The week totals less than 6 h on purpose. Use any spare time to repeat exercises
 
 ---
 
-### 1. Watch (30 min)
+### 1. Watch (27 min)
 
-Watch these in order. Pause and try the code yourself in PyCharm. The videos have not been chosen yet. Each slot below says what the video should cover.
+Watch these in order. Pause and try the code yourself in PyCharm. The videos are from different presenters, so the style changes from video to video.
 
-| # | Video topic | Length | Link | Look for |
-|---|---|---|---|---|
-| 1 | Strings and slicing | 12 min | To be sourced and checked | How an index picks one character and how `[start:stop]` cuts a piece. |
-| 2 | String methods | 10 min | To be sourced and checked | What `strip`, `split`, `join` and `replace` each give back. |
-| 3 | ASCII and UTF-8 | 8 min | To be sourced and checked | Why one character can need more than one byte. |
+| # | Video | Length | Look out for |
+|---|---|---|---|
+| 1 | [Corey Schafer] [Python Tutorial: Slicing Lists and Strings](https://www.youtube.com/watch?v=ajrtAuDg3yw) | 10:44 | How an index picks one character and how `[start:stop]` cuts a piece. The video also uses lists. Slicing a string works the same way. |
+| 2 | [Bro Code] [String methods in Python are easy!](https://www.youtube.com/watch?v=tb6EYiHtcXU) | 12:05 | What `strip`, `split`, `join` and `replace` each give back. The video ends with an exercise, which you can skip. |
+| 3 | [LeetCoder] [ASCII, Unicode, UTF-8: Explained Simply](https://www.youtube.com/watch?v=DntKZ9xJ1sM) | 3:29 | Why one character can need more than one byte. |
 
-**Total: 30 min.**
+**Total: 26 min 18 s, shown as 27 min.**
 
 ---
 

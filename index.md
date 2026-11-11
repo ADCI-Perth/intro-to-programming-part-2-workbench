@@ -21,7 +21,7 @@ Each week is one episode in the menu. Open a week to see its parts: the week ove
 
 | Block | Time | What you do |
 |---|---|---|
-| Watch | 20 to 30 min | Short videos listed on the week overview |
+| Watch | 20 to 40 min | Short videos listed on the week overview |
 | Read & practise | 1.5 to 2 h | The week's sections: read, run every example, do the exercises |
 | Concepts Bridge | 30 min | One general idea that the Python lessons do not cover |
 | Build | 2 h (3 h in Week 6) | Your portfolio item: a practice task with starter code, a model solution and tests |

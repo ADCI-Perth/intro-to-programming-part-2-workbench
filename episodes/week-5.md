@@ -1,6 +1,6 @@
 ---
 title: 'Week 5: Pandas'
-teaching: 103
+teaching: 108
 exercises: 172
 ---
 
@@ -55,21 +55,23 @@ By the end of this week you can:
 
 | Block | Time | What you do |
 |---|---|---|
-| Watch | 20 min | Two videos (below) |
+| Watch | 25 min | Two videos (below) |
 | Read & practise | 1 h 45 m | Sections 5.1 to 5.4, with Level 1 exercises |
 | Concepts Bridge | 30 min | [Cleaning data, and handling personal information](#week-5-bridge) |
 | Build | 2 h | [Web-log summary](#week-5-practice), your portfolio item for this week |
 | Quiz | 15 min | Canvas quiz, 6 questions |
-| **Total** | **4 h 50 min** | Under the 6 h cap |
+| **Total** | **4 h 55 min** | Under the 6 h cap |
 
-### Watch (20 min)
+### Watch (25 min)
 
-Watch in this order. Pause and try things in PyCharm as you go.
+Watch these in order. Pause and try the code yourself in PyCharm. The videos are from different presenters, so the style changes from video to video.
 
-| # | Video | Length | Look out for | Link |
-|---|---|---|---|---|
-| 1 | DataFrames and `read_csv` | 10 min (planned) | What a DataFrame and a Series are, and how a CSV file becomes a table. | To be sourced and checked |
-| 2 | Filtering, sorting and `groupby` | 10 min (planned) | How a condition picks rows, and how rows are split into groups. | To be sourced and checked |
+| # | Video | Length | Look out for |
+|---|---|---|---|
+| 1 | [Kimberly Fessel] [Python pandas read_csv: Load a CSV into pandas from a file or URL](https://www.youtube.com/watch?v=sTXr73fqybc) | 13:43 | How a CSV file becomes a DataFrame, and the options that control how it is read. |
+| 2 | [Alex The Analyst] [Group By and Aggregate Functions in Pandas](https://www.youtube.com/watch?v=VRmXto2YA2I) | 11:05 | How rows are split into groups and each group is summed, counted or averaged. Filtering and sorting are in the lesson. |
+
+**Total: 24 min 48 s, shown as 25 min.**
 
 ### Read & practise (1 h 45 m)
 

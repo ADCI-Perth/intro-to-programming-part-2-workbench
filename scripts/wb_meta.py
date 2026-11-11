@@ -11,8 +11,8 @@ WEEKS = {
 }
 
 # minutes per week: watch, read & practise, bridge, build (quiz is 15 minutes in every week)
-TIME = {1: (30, 120, 30, 120), 2: (30, 105, 30, 120), 3: (20, 90, 30, 120),
-        4: (30, 105, 30, 120), 5: (20, 105, 30, 120), 6: (20, 90, 30, 180)}
+TIME = {1: (27, 120, 30, 120), 2: (37, 105, 30, 120), 3: (37, 90, 30, 120),
+        4: (34, 105, 30, 120), 5: (25, 105, 30, 120), 6: (20, 90, 30, 180)}
 
 SECTIONS = {
     '1.1': dict(src='week-1/lessons/1.1_strings_indexing_slicing.md', slug='strings', title='Strings, indexing and slicing',
