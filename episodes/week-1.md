@@ -142,6 +142,12 @@ Your tutor marks the portfolio. The quiz is marked automatically.
 
 Only do these if you have time left after the core work.
 
+**More videos: Data with Baraa, Python Ultimate Course**
+
+This lesson is from a different presenter and is much longer than the Watch block, so treat it as extra explanation. Find it in the [playlist](https://www.youtube.com/playlist?list=PLNcg_FV9n7qZGfFl2ANI_zISzNp257Lwn).
+
+- [Data with Baraa] [Python String Functions Explained](https://www.youtube.com/watch?v=Yveo5hCrGLE&list=PLNcg_FV9n7qZGfFl2ANI_zISzNp257Lwn) (1:14:37)
+
 **Lesson sections**
 - Level 2 exercises in Sections 1.1, 1.2 and 1.3.
 
