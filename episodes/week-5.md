@@ -79,28 +79,28 @@ Open each lesson, read it, type out the examples and run them. Do not just copy 
 
 #### Section 5.1: DataFrames and `read_csv` (35 min)
 
-Lesson: [Section 5.1](#section-5-1). Code: [lessons/5.1_code/](files/code/5.1/).
+Lesson: [Section 5.1](#section-5-1). Code: [explore_log.py](files/code/5.1/explore_log.py), [first_dataframe.py](files/code/5.1/first_dataframe.py), [select_columns.py](files/code/5.1/select_columns.py).
 
 - Read: what a DataFrame and a Series are, `read_csv`, the first-look methods, selecting columns, and making a new column.
 - Do the **Level 1** exercises (1 to 6).
 
 #### Section 5.2: Filtering and sorting (30 min)
 
-Lesson: [Section 5.2](#section-5-2). Code: [lessons/5.2_code/](files/code/5.2/).
+Lesson: [Section 5.2](#section-5-2). Code: [filter_rows.py](files/code/5.2/filter_rows.py), [hour_column.py](files/code/5.2/hour_column.py), [sort_count.py](files/code/5.2/sort_count.py).
 
 - Read: masks, combining conditions with `&` and `|`, `isin`, `sort_values`, `value_counts` and the `str` helper.
 - Do the **Level 1** exercises (1 to 6).
 
 #### Section 5.3: Grouping with `groupby` (25 min)
 
-Lesson: [Section 5.3](#section-5-3). Code: [lessons/5.3_code/](files/code/5.3/).
+Lesson: [Section 5.3](#section-5-3). Code: [groupby_agg.py](files/code/5.3/groupby_agg.py), [groupby_basics.py](files/code/5.3/groupby_basics.py).
 
 - Read: split, apply, combine; `size` and `count`; `agg`; and `reset_index`.
 - Do the **Level 1** exercises (1 to 6).
 
 #### Section 5.4: Missing values (15 min)
 
-Lesson: [Section 5.4](#section-5-4). Code: [lessons/5.4_code/](files/code/5.4/).
+Lesson: [Section 5.4](#section-5-4). Code: [missing_values.py](files/code/5.4/missing_values.py), [small_missing.py](files/code/5.4/small_missing.py).
 
 - Read: `NaN`, `isna`, `dropna`, `fillna`, and why a mean skips gaps.
 - Do the **Level 1** exercises (1 to 6). They are short, so go quickly.
@@ -109,11 +109,11 @@ Lesson: [Section 5.4](#section-5-4). Code: [lessons/5.4_code/](files/code/5.4/).
 
 ### Concepts Bridge (30 min)
 
-Go to [bridge.md](#week-5-bridge). Part 1 lists the common data problems and the habit of recording every cleaning step. Part 2 introduces personal information and the Australian Privacy Principles, and explains why this course uses only made-up data. There are two short activities.
+Go to [the Concepts Bridge](#week-5-bridge). Part 1 lists the common data problems and the habit of recording every cleaning step. Part 2 introduces personal information and the Australian Privacy Principles, and explains why this course uses only made-up data. There are two short activities.
 
 ### Build (2 h)
 
-Go to [practice/README.md](#week-5-practice). You finish a Pandas web-log summary and write a short note about what it shows. This is your portfolio item for Week 5.
+Go to [the practice task](#week-5-practice). You finish a Pandas web-log summary and write a short note about what it shows. This is your portfolio item for Week 5.
 
 ### Quiz (15 min)
 
@@ -299,7 +299,7 @@ What each line tells you:
 - `size` is `float64` (a decimal number), even though sizes are whole bytes. Section 5.4 explains that too.
 - `describe()` gives the count, mean, standard deviation (std, from Week 4), minimum, quartiles and maximum. It only covers number columns. The mean of `status` (252.695) is not useful, because a status code is a label, not a quantity. Pandas cannot tell the difference. You must.
 
-📷 Image placeholder: episodes/fig/pycharm_dataframe_output.png — the Run window in PyCharm showing the output of `df.head()`
+![the Run window in PyCharm showing the output of `df.head()`](fig/pycharm_dataframe_output.png)
 
 ### Select columns
 

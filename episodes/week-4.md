@@ -78,21 +78,21 @@ Open each lesson, read it, type out the examples and run them. Do not just copy 
 
 #### Section 4.1: pip and virtual environments (30 min)
 
-Lesson: [Section 4.1](#section-4-1). Code: [lessons/4.1_code/](files/code/4.1/).
+Lesson: [Section 4.1](#section-4-1). Code: [check_numpy.py](files/code/4.1/check_numpy.py).
 
 - Read the whole section. Install `numpy` in your project's virtual environment as you go.
 - Do the **Level 1** exercises (1 to 5).
 
 #### Section 4.2: NumPy arrays (40 min)
 
-Lesson: [Section 4.2](#section-4-2). Code: [lessons/4.2_code/](files/code/4.2/).
+Lesson: [Section 4.2](#section-4-2). Code: [arrays_1d.py](files/code/4.2/arrays_1d.py), [arrays_2d.py](files/code/4.2/arrays_2d.py).
 
 - Read the whole section and type out the examples.
 - Do the **Level 1** exercises (1 to 5).
 
 #### Section 4.3: Statistics with NumPy (35 min)
 
-Lesson: [Section 4.3](#section-4-3). Code: [lessons/4.3_code/](files/code/4.3/).
+Lesson: [Section 4.3](#section-4-3). Code: [statistics_basics.py](files/code/4.3/statistics_basics.py), [z_scores.py](files/code/4.3/z_scores.py).
 
 - Read the whole section. Work through the standard deviation example by hand first.
 - Do the **Level 1** exercises (1 to 6).
@@ -103,11 +103,11 @@ The three sections add up to 30 + 40 + 35 = 105 minutes.
 
 ### Concepts Bridge (30 min)
 
-Go to [bridge.md](#week-4-bridge). It explains why arrays are faster than lists, shows a small timing test, and gives a table for choosing between a list and an array (LO 4). It has two short activities.
+Go to [the Concepts Bridge](#week-4-bridge). It explains why arrays are faster than lists, shows a small timing test, and gives a table for choosing between a list and an array (LO 4). It has two short activities.
 
 ### Build (2 h)
 
-Go to [practice/README.md](#week-4-practice). You read a table of login counts into a NumPy array, work out statistics for each user, and flag unusual counts with z-scores. You also write a short note that compares a loop with an array method. This is your portfolio item for Week 4.
+Go to [the practice task](#week-4-practice). You read a table of login counts into a NumPy array, work out statistics for each user, and flag unusual counts with z-scores. You also write a short note that compares a loop with an array method. This is your portfolio item for Week 4.
 
 ### Quiz (15 min)
 
@@ -195,16 +195,16 @@ When you create a new project, PyCharm offers to create a virtual environment fo
 To see which environment your project uses:
 
 1. Open **Settings**. On Windows and Linux this is **File > Settings**. On macOS it is **PyCharm > Settings**.
-2. Choose **Project: (your project name) > Python Interpreter**.
-3. Look at the top of the page. The **interpreter** is the Python program that runs your code. Its path should end with `.venv` and the name of your project should be in it. Below it is a table of the packages installed in this environment.
+2. Choose **Python > All Interpreters**. In older PyCharm versions this page is **Project: (your project name) > Python Interpreter**.
+3. Look at the list. The **interpreter** is the Python program that runs your code. Its path should end with `.venv` and the name of your project should be in it. Older versions also show a table of the installed packages on this page. Newer versions list the packages in the Python Packages tool window, described below.
 
-📷 Image placeholder: episodes/fig/python_interpreter_settings.png — the Settings window open at Project > Python Interpreter, showing the `.venv` interpreter path and the table of installed packages.
+![the Settings window open at Python > All Interpreters, showing the `.venv` interpreter of the project](fig/python_interpreter_settings.png)
 
 If the interpreter line says **No interpreter**, click **Add Interpreter > Add Local Interpreter**, choose **Virtualenv Environment** and **New**, and click **OK**. PyCharm then creates the `.venv` folder for you. The exact wording of these buttons changes a little between PyCharm versions.
 
 PyCharm also has a **Python Packages** tool window. Open it with **View > Tool Windows > Python Packages**. It lists the installed packages and lets you search PyPI for new ones.
 
-📷 Image placeholder: episodes/fig/python_packages_tool_window.png — the Python Packages tool window at the bottom of PyCharm, with `numpy` typed in the search box and the installed packages listed.
+![the Python Packages tool window in PyCharm, with `numpy` typed in the search box. It shows numpy as installed, and the matching packages on PyPI](fig/python_packages_tool_window.png)
 
 ### Installing NumPy with pip
 
@@ -218,7 +218,7 @@ You will install packages by typing a command, because the same command works on
 python -m pip install numpy
 ```
 
-📷 Image placeholder: episodes/fig/terminal_pip_install.png — the PyCharm Terminal showing the `(.venv)` prompt and the command `python -m pip install numpy` with its "Successfully installed" line.
+![the PyCharm Terminal showing the `(.venv)` prompt and the command `python -m pip install numpy` with its "Successfully installed" line](fig/terminal_pip_install.png)
 
 The command has four parts:
 

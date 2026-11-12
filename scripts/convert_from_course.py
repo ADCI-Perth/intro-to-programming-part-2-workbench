@@ -31,6 +31,43 @@ for w, m in PRACTICE.items():
         TARGET[f'weeks/week-{w}/practice/{f}'] = ('episodes', f'files/week-{w}/{f}', '')
 
 # ---------------------------------------------------------------- text helpers
+SKIP_DIRS = ('__pycache__', '.pytest_cache')
+
+
+def dir_links(src_dir, dest):
+    """Links to every file under a source code folder. Web hosts do not list folders, so a link to a folder would be a dead link."""
+    out = []
+    for dirpath, dirnames, filenames in os.walk(os.path.join(SRC, src_dir)):
+        dirnames[:] = sorted(d for d in dirnames if d not in SKIP_DIRS)
+        for f in sorted(filenames):
+            if not f.endswith('.pyc'):
+                rel = os.path.relpath(os.path.join(dirpath, f), os.path.join(SRC, src_dir)).replace(os.sep, '/')
+                out.append(f'[{rel}]({dest}/{rel})')
+    return ', '.join(out)
+
+
+def nice_label(label, target):
+    """Replace a label that is a repository path (such as bridge.md) with words a learner understands."""
+    if not re.fullmatch(r'[\w./-]+\.md', label):
+        return label
+    if target.endswith('/bridge.md'):
+        return 'the Concepts Bridge'
+    if target.endswith('/practice/README.md'):
+        return 'the practice task'
+    if target.endswith('/mini_project/README.md'):
+        return 'the mini project instructions'
+    return label
+
+
+def zip_add(z, full, arcname):
+    """Add a file with a fixed date, so the zip only changes when its contents change."""
+    info = zipfile.ZipInfo(arcname, date_time=(2026, 1, 1, 0, 0, 0))
+    info.compress_type = zipfile.ZIP_DEFLATED
+    info.external_attr = 0o644 << 16
+    with open(full, 'rb') as f:
+        z.writestr(info, f.read())
+
+
 FENCE = {'py': 'python', 'python': 'python', 'pycon': 'python', 'text': 'output',
          'sh': 'bash', 'shell': 'bash', 'bash': 'bash'}
 
@@ -49,6 +86,7 @@ def links(t, src_rel, here, page):
             return m.group(0)
         path, _, frag = url.partition('#')
         target = posixpath.normpath(posixpath.join(base, path))
+        label = nice_label(label, target)
         if target.startswith('assets/data/'):
             return f'[{label}](data/{target[len("assets/data/"):]})'
         if target.startswith('assets/files/'):
@@ -56,11 +94,15 @@ def links(t, src_rel, here, page):
         if target in ('assets/data', 'assets/data/', 'assets/files', 'assets/files/'):
             return f'[{label}](data/course-data.zip)'   # web hosts do not list folders
         code = re.match(r'weeks/week-\d/lessons/(\d\.\d)_code(/.*)?$', target)
+        if code and not (code.group(2) or '/').strip('/'):
+            return dir_links(target, f'files/code/{code.group(1)}')
         if code:
-            return f'[{label}](files/code/{code.group(1)}{code.group(2) or "/"})'
+            return f'[{label}](files/code/{code.group(1)}{code.group(2)})'
         bridge = re.match(r'weeks/week-(\d)/bridge_code(/.*)?$', target)
+        if bridge and not (bridge.group(2) or '/').strip('/'):
+            return dir_links(target, f'files/code/bridge-{bridge.group(1)}')
         if bridge:
-            return f'[{label}](files/code/bridge-{bridge.group(1)}{bridge.group(2) or "/"})'
+            return f'[{label}](files/code/bridge-{bridge.group(1)}{bridge.group(2)})'
         if target in TARGET:
             folder, name, anchor = TARGET[target]
             if name.startswith('files/'):
@@ -78,6 +120,12 @@ def links(t, src_rel, here, page):
 
 
 def placeholders(t):
+    """Screenshot placeholders carry notes for the course team. Learners only see that a screenshot is still to come."""
+    def note(m):
+        return '> 📷 *Screenshot to be added: ' + m.group(1).strip().rstrip('.') + '.*'
+    t = re.sub(r'^(?:>\s*)?📷 \*{0,2}Image placeholder:\*{0,2}\s*(?:`?assets/images/[^\s`]+`?\s+—\s+)?([^\n]*?)[ \t]*\n(?:>\s*Add your screenshot as[^\n]*\n?)?',
+               lambda m: note(m) + '\n', t, flags=re.M)
+    t = re.sub(r'\((?:\.\./)+assets/images/week-\d/([\w.-]+\.png)\)', r'(fig/\1)', t)   # real images
     return re.sub(r'assets/images/week-\d/([\w.-]+\.png)', r'episodes/fig/\1', t)
 
 
@@ -250,7 +298,7 @@ IGNORE = shutil.ignore_patterns('__pycache__', '*.pyc', '.pytest_cache')
 for w in WEEKS:
     lessons = os.path.join(W, f'week-{w}', 'lessons')
     for d in os.listdir(lessons):
-        if d.endswith('_code'):
+        if d.endswith('_code') and d[:-5] in SECTIONS:   # only sections that are in this site
             shutil.copytree(os.path.join(lessons, d), os.path.join(EP, 'files', 'code', d[:-5]), ignore=IGNORE, dirs_exist_ok=True)
     bridge_code = os.path.join(W, f'week-{w}', 'bridge_code')
     if os.path.isdir(bridge_code):
@@ -262,11 +310,20 @@ for sub in ('data', 'files'):
     for f in os.listdir(src):
         shutil.copyfile(os.path.join(src, f), os.path.join(EP, sub, f))
 
+# screenshots and chart images: assets/images/week-N/*.png -> episodes/fig/
+images = os.path.join(SRC, 'assets', 'images')
+if os.path.isdir(images):
+    for dirpath, dirnames, filenames in os.walk(images):
+        for f in sorted(filenames):
+            if f.lower().endswith(('.png', '.jpg', '.jpeg', '.svg')):
+                os.makedirs(os.path.join(EP, 'fig'), exist_ok=True)
+                shutil.copyfile(os.path.join(dirpath, f), os.path.join(EP, 'fig', f))
+
 # one zip that keeps the course folder layout (assets/ and weeks/week-N/...), so every program finds its data
 with zipfile.ZipFile(os.path.join(EP, 'data', 'course-data.zip'), 'w', zipfile.ZIP_DEFLATED) as z:
     for sub in ('data', 'files'):
         for f in sorted(os.listdir(os.path.join(SRC, 'assets', sub))):
-            z.write(os.path.join(SRC, 'assets', sub, f), f'{ZIP_ROOT}/assets/{sub}/{f}')
+            zip_add(z, os.path.join(SRC, 'assets', sub, f), f'{ZIP_ROOT}/assets/{sub}/{f}')
     for w in WEEKS:
         base = os.path.join(W, f'week-{w}')
         for dirpath, dirnames, filenames in os.walk(base):
@@ -275,7 +332,7 @@ with zipfile.ZipFile(os.path.join(EP, 'data', 'course-data.zip'), 'w', zipfile.Z
                 if f.endswith(('.py', '.txt')):
                     full = os.path.join(dirpath, f)
                     rel = os.path.relpath(full, SRC).replace(os.sep, '/')
-                    z.write(full, f'{ZIP_ROOT}/{rel}')
+                    zip_add(z, full, f'{ZIP_ROOT}/{rel}')
 
 print(len(order), 'week episodes')
 print('episodes:', ' '.join(order))
