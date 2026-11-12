@@ -347,7 +347,7 @@
       </div>
     </nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Week 4: Libraries and NumPy</h1>
-        <p>Last updated on 2026-11-11 |
+        <p>Last updated on 2026-11-12 |
 
         <a href="https://github.com/ADCI-Perth/intro-to-programming-part-2-workbench/edit/main/episodes/week-4.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 
@@ -486,20 +486,20 @@ set of values. You can skip the mode.</td>
 just copy and paste.</p>
 <div class="section level4">
 <h4 id="section-4-1-pip-and-virtual-environments-30-min">Section 4.1: pip and virtual environments (30 min)<a class="anchor" aria-label="anchor" href="#section-4-1-pip-and-virtual-environments-30-min"></a></h4>
-<p>Lesson: <a href="#section-4-1">Section 4.1</a>. Code: <a href="../files/code/4.1">lessons/4.1_code/</a>.</p>
+<p>Lesson: <a href="#section-4-1">Section 4.1</a>. Code: <a href="../files/code/4.1/check_numpy.py">check_numpy.py</a>.</p>
 <ul><li>Read the whole section. Install <code>numpy</code> in your project’s
 virtual environment as you go.</li>
 <li>Do the <strong>Level 1</strong> exercises (1 to 5).</li>
 </ul></div>
 <div class="section level4">
 <h4 id="section-4-2-numpy-arrays-40-min">Section 4.2: NumPy arrays (40 min)<a class="anchor" aria-label="anchor" href="#section-4-2-numpy-arrays-40-min"></a></h4>
-<p>Lesson: <a href="#section-4-2">Section 4.2</a>. Code: <a href="../files/code/4.2">lessons/4.2_code/</a>.</p>
+<p>Lesson: <a href="#section-4-2">Section 4.2</a>. Code: <a href="../files/code/4.2/arrays_1d.py">arrays_1d.py</a>, <a href="../files/code/4.2/arrays_2d.py">arrays_2d.py</a>.</p>
 <ul><li>Read the whole section and type out the examples.</li>
 <li>Do the <strong>Level 1</strong> exercises (1 to 5).</li>
 </ul></div>
 <div class="section level4">
 <h4 id="section-4-3-statistics-with-numpy-35-min">Section 4.3: Statistics with NumPy (35 min)<a class="anchor" aria-label="anchor" href="#section-4-3-statistics-with-numpy-35-min"></a></h4>
-<p>Lesson: <a href="#section-4-3">Section 4.3</a>. Code: <a href="../files/code/4.3">lessons/4.3_code/</a>.</p>
+<p>Lesson: <a href="#section-4-3">Section 4.3</a>. Code: <a href="../files/code/4.3/statistics_basics.py">statistics_basics.py</a>, <a href="../files/code/4.3/z_scores.py">z_scores.py</a>.</p>
 <ul><li>Read the whole section. Work through the standard deviation example
 by hand first.</li>
 <li>Do the <strong>Level 1</strong> exercises (1 to 6).</li>
@@ -511,14 +511,14 @@ week. You will install <code>pandas</code> in Week 5 and
 </div>
 <div class="section level3">
 <h3 id="concepts-bridge-30-min">Concepts Bridge (30 min)<a class="anchor" aria-label="anchor" href="#concepts-bridge-30-min"></a></h3>
-<p>Go to <a href="#week-4-bridge">bridge.md</a>. It explains why arrays
-are faster than lists, shows a small timing test, and gives a table for
-choosing between a list and an array (LO 4). It has two short
+<p>Go to <a href="#week-4-bridge">the Concepts Bridge</a>. It explains
+why arrays are faster than lists, shows a small timing test, and gives a
+table for choosing between a list and an array (LO 4). It has two short
 activities.</p>
 </div>
 <div class="section level3">
 <h3 id="build-2-h">Build (2 h)<a class="anchor" aria-label="anchor" href="#build-2-h"></a></h3>
-<p>Go to <a href="#week-4-practice">practice/README.md</a>. You read a
+<p>Go to <a href="#week-4-practice">the practice task</a>. You read a
 table of login counts into a NumPy array, work out statistics for each
 user, and flag unusual counts with z-scores. You also write a short note
 that compares a loop with an array method. This is your portfolio item
@@ -658,17 +658,18 @@ anything in it. PyCharm and pip look after it.</p>
 <ol style="list-style-type: decimal"><li>Open <strong>Settings</strong>. On Windows and Linux this is
 <strong>File &gt; Settings</strong>. On macOS it is <strong>PyCharm &gt;
 Settings</strong>.</li>
-<li>Choose <strong>Project: (your project name) &gt; Python
-Interpreter</strong>.</li>
-<li>Look at the top of the page. The <strong>interpreter</strong> is the
-Python program that runs your code. Its path should end with
-<code>.venv</code> and the name of your project should be in it. Below
-it is a table of the packages installed in this environment.</li>
-</ol><p>📷 Image placeholder: episodes/fig/python_interpreter_settings.png —
-the Settings window open at Project &gt; Python Interpreter, showing the
-<code>.venv</code> interpreter path and the table of installed
-packages.</p>
-<p>If the interpreter line says <strong>No interpreter</strong>, click
+<li>Choose <strong>Python &gt; All Interpreters</strong>. In older
+PyCharm versions this page is <strong>Project: (your project name) &gt;
+Python Interpreter</strong>.</li>
+<li>Look at the list. The <strong>interpreter</strong> is the Python
+program that runs your code. Its path should end with <code>.venv</code>
+and the name of your project should be in it. Older versions also show a
+table of the installed packages on this page. Newer versions list the
+packages in the Python Packages tool window, described below.</li>
+</ol><figure><img src="../fig/python_interpreter_settings.png" alt="the Settings window open at Python &gt; All Interpreters, showing the .venv interpreter of the project" class="figure mx-auto d-block"><div class="figcaption">the Settings window open at Python &gt; All
+Interpreters, showing the <code>.venv</code> interpreter of the
+project</div>
+</figure><p>If the interpreter line says <strong>No interpreter</strong>, click
 <strong>Add Interpreter &gt; Add Local Interpreter</strong>, choose
 <strong>Virtualenv Environment</strong> and <strong>New</strong>, and
 click <strong>OK</strong>. PyCharm then creates the <code>.venv</code>
@@ -677,11 +678,10 @@ between PyCharm versions.</p>
 <p>PyCharm also has a <strong>Python Packages</strong> tool window. Open
 it with <strong>View &gt; Tool Windows &gt; Python Packages</strong>. It
 lists the installed packages and lets you search PyPI for new ones.</p>
-<p>📷 Image placeholder: episodes/fig/python_packages_tool_window.png —
-the Python Packages tool window at the bottom of PyCharm, with
-<code>numpy</code> typed in the search box and the installed packages
-listed.</p>
-</div>
+<figure><img src="../fig/python_packages_tool_window.png" alt="the Python Packages tool window in PyCharm, with numpy typed in the search box. It shows numpy as installed, and the matching packages on PyPI" class="figure mx-auto d-block"><div class="figcaption">the Python Packages tool window in PyCharm, with
+<code>numpy</code> typed in the search box. It shows numpy as installed,
+and the matching packages on PyPI</div>
+</figure></div>
 <div class="section level3">
 <h3 id="installing-numpy-with-pip">Installing NumPy with pip<a class="anchor" aria-label="anchor" href="#installing-numpy-with-pip"></a></h3>
 <p>You will install packages by typing a command, because the same
@@ -699,11 +699,11 @@ environment of your project.</li>
 </h3>
 <pre class="output" tabindex="0"><code>python -m pip install numpy</code></pre>
 </div>
-<p>📷 Image placeholder: episodes/fig/terminal_pip_install.png — the
-PyCharm Terminal showing the <code>(.venv)</code> prompt and the command
+<figure><img src="../fig/terminal_pip_install.png" alt="the PyCharm Terminal showing the (.venv) prompt and the command python -m pip install numpy with its “Successfully installed” line" class="figure mx-auto d-block"><div class="figcaption">the PyCharm Terminal showing the
+<code>(.venv)</code> prompt and the command
 <code>python -m pip install numpy</code> with its “Successfully
-installed” line.</p>
-<p>The command has four parts:</p>
+installed” line</div>
+</figure><p>The command has four parts:</p>
 <table class="table"><thead><tr><th>Part</th>
 <th>Meaning</th>
 </tr></thead><tbody><tr><td><code>python</code></td>
@@ -1655,7 +1655,7 @@ Fahrenheit.</li>
   Model answer
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p><strong>Activity 1.</strong></p>
 <ol style="list-style-type: decimal"><li>
@@ -2014,8 +2014,8 @@ any links that you are not going to use.
   "url": "https://ADCI-Perth.github.io/intro-to-programming-part-2-workbench/instructor/week-4.html",
   "identifier": "https://ADCI-Perth.github.io/intro-to-programming-part-2-workbench/instructor/week-4.html",
   "dateCreated": "2026-11-11",
-  "dateModified": "2026-11-11",
-  "datePublished": "2026-11-11"
+  "dateModified": "2026-11-12",
+  "datePublished": "2026-11-12"
 }
 
   </script><script>

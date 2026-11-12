@@ -348,7 +348,7 @@
       </div>
     </nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Week 5: Pandas</h1>
-        <p>Last updated on 2026-11-11 |
+        <p>Last updated on 2026-11-12 |
 
         <a href="https://github.com/ADCI-Perth/intro-to-programming-part-2-workbench/edit/main/episodes/week-5.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 
@@ -484,14 +484,14 @@ just copy and paste. Install Pandas in your virtual environment first:
 <code>python -m pip install pandas</code>.</p>
 <div class="section level4">
 <h4 id="section-5-1-dataframes-and-read_csv-35-min">Section 5.1: DataFrames and <code>read_csv</code> (35 min)<a class="anchor" aria-label="anchor" href="#section-5-1-dataframes-and-read_csv-35-min"></a></h4>
-<p>Lesson: <a href="#section-5-1">Section 5.1</a>. Code: <a href="files/code/5.1/">lessons/5.1_code/</a>.</p>
+<p>Lesson: <a href="#section-5-1">Section 5.1</a>. Code: <a href="files/code/5.1/explore_log.py">explore_log.py</a>, <a href="files/code/5.1/first_dataframe.py">first_dataframe.py</a>, <a href="files/code/5.1/select_columns.py">select_columns.py</a>.</p>
 <ul><li>Read: what a DataFrame and a Series are, <code>read_csv</code>, the
 first-look methods, selecting columns, and making a new column.</li>
 <li>Do the <strong>Level 1</strong> exercises (1 to 6).</li>
 </ul></div>
 <div class="section level4">
 <h4 id="section-5-2-filtering-and-sorting-30-min">Section 5.2: Filtering and sorting (30 min)<a class="anchor" aria-label="anchor" href="#section-5-2-filtering-and-sorting-30-min"></a></h4>
-<p>Lesson: <a href="#section-5-2">Section 5.2</a>. Code: <a href="files/code/5.2/">lessons/5.2_code/</a>.</p>
+<p>Lesson: <a href="#section-5-2">Section 5.2</a>. Code: <a href="files/code/5.2/filter_rows.py">filter_rows.py</a>, <a href="files/code/5.2/hour_column.py">hour_column.py</a>, <a href="files/code/5.2/sort_count.py">sort_count.py</a>.</p>
 <ul><li>Read: masks, combining conditions with <code>&amp;</code> and
 <code>|</code>, <code>isin</code>, <code>sort_values</code>,
 <code>value_counts</code> and the <code>str</code> helper.</li>
@@ -499,14 +499,14 @@ first-look methods, selecting columns, and making a new column.</li>
 </ul></div>
 <div class="section level4">
 <h4 id="section-5-3-grouping-with-groupby-25-min">Section 5.3: Grouping with <code>groupby</code> (25 min)<a class="anchor" aria-label="anchor" href="#section-5-3-grouping-with-groupby-25-min"></a></h4>
-<p>Lesson: <a href="#section-5-3">Section 5.3</a>. Code: <a href="files/code/5.3/">lessons/5.3_code/</a>.</p>
+<p>Lesson: <a href="#section-5-3">Section 5.3</a>. Code: <a href="files/code/5.3/groupby_agg.py">groupby_agg.py</a>, <a href="files/code/5.3/groupby_basics.py">groupby_basics.py</a>.</p>
 <ul><li>Read: split, apply, combine; <code>size</code> and
 <code>count</code>; <code>agg</code>; and <code>reset_index</code>.</li>
 <li>Do the <strong>Level 1</strong> exercises (1 to 6).</li>
 </ul></div>
 <div class="section level4">
 <h4 id="section-5-4-missing-values-15-min">Section 5.4: Missing values (15 min)<a class="anchor" aria-label="anchor" href="#section-5-4-missing-values-15-min"></a></h4>
-<p>Lesson: <a href="#section-5-4">Section 5.4</a>. Code: <a href="files/code/5.4/">lessons/5.4_code/</a>.</p>
+<p>Lesson: <a href="#section-5-4">Section 5.4</a>. Code: <a href="files/code/5.4/missing_values.py">missing_values.py</a>, <a href="files/code/5.4/small_missing.py">small_missing.py</a>.</p>
 <ul><li>Read: <code>NaN</code>, <code>isna</code>, <code>dropna</code>,
 <code>fillna</code>, and why a mean skips gaps.</li>
 <li>Do the <strong>Level 1</strong> exercises (1 to 6). They are short,
@@ -519,15 +519,15 @@ settings is the <code>.venv</code> one.</p>
 </div>
 <div class="section level3">
 <h3 id="concepts-bridge-30-min">Concepts Bridge (30 min)<a class="anchor" aria-label="anchor" href="#concepts-bridge-30-min"></a></h3>
-<p>Go to <a href="#week-5-bridge">bridge.md</a>. Part 1 lists the common
-data problems and the habit of recording every cleaning step. Part 2
-introduces personal information and the Australian Privacy Principles,
-and explains why this course uses only made-up data. There are two short
-activities.</p>
+<p>Go to <a href="#week-5-bridge">the Concepts Bridge</a>. Part 1 lists
+the common data problems and the habit of recording every cleaning step.
+Part 2 introduces personal information and the Australian Privacy
+Principles, and explains why this course uses only made-up data. There
+are two short activities.</p>
 </div>
 <div class="section level3">
 <h3 id="build-2-h">Build (2 h)<a class="anchor" aria-label="anchor" href="#build-2-h"></a></h3>
-<p>Go to <a href="#week-5-practice">practice/README.md</a>. You finish a
+<p>Go to <a href="#week-5-practice">the practice task</a>. You finish a
 Pandas web-log summary and write a short note about what it shows. This
 is your portfolio item for Week 5.</p>
 </div>
@@ -766,9 +766,10 @@ though sizes are whole bytes. Section 5.4 explains that too.</li>
 number columns. The mean of <code>status</code> (252.695) is not useful,
 because a status code is a label, not a quantity. Pandas cannot tell the
 difference. You must.</li>
-</ul><p>📷 Image placeholder: episodes/fig/pycharm_dataframe_output.png — the
-Run window in PyCharm showing the output of <code>df.head()</code></p>
+</ul><figure><img src="fig/pycharm_dataframe_output.png" alt="the Run window in PyCharm showing the output of df.head()" class="figure mx-auto d-block"><div class="figcaption">the Run window in PyCharm showing the output of
+<code>df.head()</code>
 </div>
+</figure></div>
 <div class="section level3">
 <h3 id="select-columns">Select columns<a class="anchor" aria-label="anchor" href="#select-columns"></a></h3>
 <p>Use square brackets and a column name in quotes. One name gives a
@@ -2537,8 +2538,8 @@ any links that you are not going to use.
   "url": "https://ADCI-Perth.github.io/intro-to-programming-part-2-workbench/week-5.html",
   "identifier": "https://ADCI-Perth.github.io/intro-to-programming-part-2-workbench/week-5.html",
   "dateCreated": "2026-11-11",
-  "dateModified": "2026-11-11",
-  "datePublished": "2026-11-11"
+  "dateModified": "2026-11-12",
+  "datePublished": "2026-11-12"
 }
 
   </script><script>

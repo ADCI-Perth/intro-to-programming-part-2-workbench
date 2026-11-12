@@ -347,7 +347,7 @@
       </div>
     </nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Week 6: Charts and capstone</h1>
-        <p>Last updated on 2026-11-11 |
+        <p>Last updated on 2026-11-12 |
 
         <a href="https://github.com/ADCI-Perth/intro-to-programming-part-2-workbench/edit/main/episodes/week-6.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 
@@ -494,21 +494,21 @@ script. In your own code, <code>plt.show()</code> opens a window in
 PyCharm.</p>
 <div class="section level4">
 <h4 id="section-6-1-line-charts-with-matplotlib-35-min">Section 6.1: Line charts with Matplotlib (35 min)<a class="anchor" aria-label="anchor" href="#section-6-1-line-charts-with-matplotlib-35-min"></a></h4>
-<p>Lesson: <a href="#section-6-1">Section 6.1</a>. Code: <a href="../files/code/6.1">lessons/6.1_code/</a>.</p>
+<p>Lesson: <a href="#section-6-1">Section 6.1</a>. Code: <a href="../files/code/6.1/first_line_chart.py">first_line_chart.py</a>, <a href="../files/code/6.1/line_from_groupby.py">line_from_groupby.py</a>, <a href="../files/code/6.1/line_with_dates.py">line_with_dates.py</a>.</p>
 <ul><li>Read all of it. Install Matplotlib in your project’s virtual
 environment first.</li>
 <li>Do the <strong>Level 1</strong> exercises (1 to 6).</li>
 </ul></div>
 <div class="section level4">
 <h4 id="section-6-2-bar-charts-and-histograms-30-min">Section 6.2: Bar charts and histograms (30 min)<a class="anchor" aria-label="anchor" href="#section-6-2-bar-charts-and-histograms-30-min"></a></h4>
-<p>Lesson: <a href="#section-6-2">Section 6.2</a>. Code: <a href="../files/code/6.2">lessons/6.2_code/</a>.</p>
+<p>Lesson: <a href="#section-6-2">Section 6.2</a>. Code: <a href="../files/code/6.2/bar_charts.py">bar_charts.py</a>, <a href="../files/code/6.2/histograms.py">histograms.py</a>.</p>
 <ul><li>Read all of it. Keep the decision table (which chart for which
 question) open for the Build.</li>
 <li>Do the <strong>Level 1</strong> exercises (1 to 6).</li>
 </ul></div>
 <div class="section level4">
 <h4 id="section-6-3-building-a-chart-that-answers-a-question-25-min">Section 6.3: Building a chart that answers a question (25 min)<a class="anchor" aria-label="anchor" href="#section-6-3-building-a-chart-that-answers-a-question-25-min"></a></h4>
-<p>Lesson: <a href="#section-6-3">Section 6.3</a>. Code: <a href="../files/code/6.3">lessons/6.3_code/</a>.</p>
+<p>Lesson: <a href="#section-6-3">Section 6.3</a>. Code: <a href="../files/code/6.3/team_chart.py">team_chart.py</a>, <a href="../files/code/6.3/worked_example.py">worked_example.py</a>.</p>
 <ul><li>Read all of it. This is the method you will use in the Build.</li>
 <li>Do the <strong>Level 1</strong> exercises (1 to 6).</li>
 </ul><p><strong>PyCharm note:</strong> if a chart window opens and the
@@ -517,14 +517,14 @@ program seems stuck, close the window. The program waits for you.</p>
 </div>
 <div class="section level3">
 <h3 id="concepts-bridge-30-min">Concepts Bridge (30 min)<a class="anchor" aria-label="anchor" href="#concepts-bridge-30-min"></a></h3>
-<p>Go to <a href="#week-6-bridge">bridge.md</a>. It shows how a chart
-can mislead without any wrong number, gives you a checklist for an
-honest chart, and explains why the person who makes a chart is
-responsible for the impression it gives. Code for the bridge is in <a href="../files/code/bridge-6">bridge_code/</a>.</p>
+<p>Go to <a href="#week-6-bridge">the Concepts Bridge</a>. It shows how
+a chart can mislead without any wrong number, gives you a checklist for
+an honest chart, and explains why the person who makes a chart is
+responsible for the impression it gives. Code for the bridge is in <a href="../files/code/bridge-6/axis_pair.py">axis_pair.py</a>.</p>
 </div>
 <div class="section level3">
 <h3 id="build-3-h">Build (3 h)<a class="anchor" aria-label="anchor" href="#build-3-h"></a></h3>
-<p>Go to <a href="#week-6-practice">practice/README.md</a>. You choose
+<p>Go to <a href="#week-6-practice">the practice task</a>. You choose
 one of two datasets (login attempts, or sales), answer a question with
 Pandas, draw two charts, and write a short finding. Install pandas,
 matplotlib and pytest in your project’s virtual environment before you
@@ -636,13 +636,13 @@ may be different, and that is fine.</p>
 <p>Run it in PyCharm. <code>plt.show()</code> <strong>opens a
 window</strong> with the chart. Close the window to let the program
 end.</p>
-<p>📷 Image placeholder: episodes/fig/first_line_chart.png — a line
-chart with five round dots joined by a line. The title is “Help desk
-tickets this week”. The line rises from 12 to 15, falls to 9, climbs to
-20 on Thursday, then falls to 14.</p>
-<p>The saved code for this section, in <a href="../files/code/6.1">6.1_code</a>, uses a different last step. It
-saves the chart to a PNG file instead of opening a window. That way it
-also runs on a computer with no screen. You will see how below.</p>
+<figure><img src="../fig/first_line_chart.png" alt="a line chart with five round dots joined by a line. The title is “Help desk tickets this week”. The line rises from 12 to 15, falls to 9, climbs to 20 on Thursday, then falls to 14." class="figure mx-auto d-block"><div class="figcaption">a line chart with five round dots joined by a
+line. The title is “Help desk tickets this week”. The line rises from 12
+to 15, falls to 9, climbs to 20 on Thursday, then falls to 14.</div>
+</figure><p>The saved code for this section, in <a href="../files/code/6.1/first_line_chart.py">first_line_chart.py</a>, <a href="../files/code/6.1/line_from_groupby.py">line_from_groupby.py</a>, <a href="../files/code/6.1/line_with_dates.py">line_with_dates.py</a>, uses a
+different last step. It saves the chart to a PNG file instead of opening
+a window. That way it also runs on a computer with no screen. You will
+see how below.</p>
 </div>
 <div class="section level3">
 <h3 id="figure-and-axes">4. Figure and axes<a class="anchor" aria-label="anchor" href="#figure-and-axes"></a></h3>
@@ -794,11 +794,11 @@ at in Week 5.</p>
 <p><code>str[:2]</code> takes the first two characters of the time text.
 <code>fig.tight_layout()</code> adjusts the margins so that labels are
 not cut off. The file is <code>line_from_groupby.py</code>.</p>
-<p>📷 Image placeholder: episodes/fig/requests_per_hour.png — a line
-chart with a high point at hour 2 (22 requests), a long straight stretch
-to hour 7 (6 requests), then a line that rises and falls with peaks of
-23 requests at hours 11 and 15, and ends at hour 23 with 10.</p>
-<p><strong>Check the picture against the numbers.</strong> A chart is
+<figure><img src="../fig/requests_per_hour.png" alt="a line chart with a high point at hour 2 (22 requests), a long straight stretch to hour 7 (6 requests), then a line that rises and falls with peaks of 23 requests at hours 11 and 15, and ends at hour 23 with 10." class="figure mx-auto d-block"><div class="figcaption">a line chart with a high point at hour 2 (22
+requests), a long straight stretch to hour 7 (6 requests), then a line
+that rises and falls with peaks of 23 requests at hours 11 and 15, and
+ends at hour 23 with 10.</div>
+</figure><p><strong>Check the picture against the numbers.</strong> A chart is
 only as good as the code that made it. Here the table says hour 2 has
 22, and the chart shows a high point at hour 2. They match.</p>
 <p>Notice that hours 3 to 6 are missing from the Series, because there
@@ -852,11 +852,11 @@ small box that says which line is which.</p>
 <p><code>df["date"][::3]</code> takes every third item (a slice with a
 step of 3, as in Week 1). The file is
 <code>line_with_dates.py</code>.</p>
-<p>📷 Image placeholder: episodes/fig/two_users.png — two lines. user01
-stays between 2 and 6. user04 stays between 6 and 10 except for one tall
-spike to 41 on 2026-10-21. A legend in the corner names the two lines.
-The date labels are tilted.</p>
-<p>Here the dates are plain text such as <code>"2026-10-05"</code>, and
+<figure><img src="../fig/two_users.png" alt="two lines. user01 stays between 2 and 6. user04 stays between 6 and 10 except for one tall spike to 41 on 2026-10-21. A legend in the corner names the two lines. The date labels are tilted." class="figure mx-auto d-block"><div class="figcaption">two lines. user01 stays between 2 and 6. user04
+stays between 6 and 10 except for one tall spike to 41 on 2026-10-21. A
+legend in the corner names the two lines. The date labels are
+tilted.</div>
+</figure><p>Here the dates are plain text such as <code>"2026-10-05"</code>, and
 Matplotlib treats each as a separate category in order. That works
 because the rows are already in date order and there are no gaps. If a
 day were missing, the spacing would be wrong. Always check that every
@@ -988,8 +988,8 @@ categories.</p>
 <span id="cb12-15"><a href="#cb12-15" tabindex="-1" aria-label="code-block-12-15"></a>plt.show()</span></code></pre>
 </div>
 <p><code>plt.show()</code> opens a window in PyCharm. The saved version,
-<code>bar_charts.py</code> in <a href="../files/code/6.2">6.2_code</a>,
-saves a PNG instead. The numbers printed are:</p>
+<code>bar_charts.py</code> in <a href="../files/code/6.2/bar_charts.py">bar_charts.py</a>, <a href="../files/code/6.2/histograms.py">histograms.py</a>, saves a PNG
+instead. The numbers printed are:</p>
 <div class="codewrapper">
 <h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
@@ -1004,11 +1004,10 @@ dtype: int64</code></pre>
 <p>The status codes are numbers, but here they are names of groups, so
 <code>.astype(str)</code> turns them into text. Without it, Matplotlib
 may place the bars as if the codes were on a number line.</p>
-<p>📷 Image placeholder: episodes/fig/status_bars.png — five vertical
-bars labelled 200, 304, 401, 404 and 500. The 200 bar is by far the
-tallest at 143. The 401 bar is 27, the 404 bar is 16, the 304 bar is 12
-and the 500 bar is 2.</p>
-<p><strong>Bars must start at zero.</strong> The height of a bar is how
+<figure><img src="../fig/status_bars.png" alt="five vertical bars labelled 200, 304, 401, 404 and 500. The 200 bar is by far the tallest at 143. The 401 bar is 27, the 404 bar is 16, the 304 bar is 12 and the 500 bar is 2." class="figure mx-auto d-block"><div class="figcaption">five vertical bars labelled 200, 304, 401, 404
+and 500. The 200 bar is by far the tallest at 143. The 401 bar is 27,
+the 404 bar is 16, the 304 bar is 12 and the 500 bar is 2.</div>
+</figure><p><strong>Bars must start at zero.</strong> The height of a bar is how
 much there is. If the axis starts at 100, a bar of 143 looks as if it
 were only a little bigger than nothing, and it is hard to compare.
 <code>ax.bar</code> starts at zero by default. Do not change that. The
@@ -1060,11 +1059,10 @@ way before you draw:</p>
 <strong>horizontal</strong> one. So the unit goes in
 <code>set_xlabel</code>, and the category name goes in
 <code>set_ylabel</code>.</p>
-<p>📷 Image placeholder: episodes/fig/top_pages.png — five horizontal
-bars. The longest, “/login” at 34, is at the top. Below it are
-“/courses.html” (25), “/css/site.css” (24), “/about.html” (22) and
-“/images/logo.png” (21).</p>
-</div>
+<figure><img src="../fig/top_pages.png" alt="five horizontal bars. The longest, “/login” at 34, is at the top. Below it are “/courses.html” (25), “/css/site.css” (24), “/about.html” (22) and “/images/logo.png” (21)." class="figure mx-auto d-block"><div class="figcaption">five horizontal bars. The longest, “/login” at
+34, is at the top. Below it are “/courses.html” (25), “/css/site.css”
+(24), “/about.html” (22) and “/images/logo.png” (21).</div>
+</figure></div>
 <div class="section level3">
 <h3 id="sort-your-bars">4. Sort your bars<a class="anchor" aria-label="anchor" href="#sort-your-bars"></a></h3>
 <p>Bars in a random order make the reader work. Sort them by size,
@@ -1137,13 +1135,12 @@ together.</li>
 <strong>Too many bins</strong> make the chart jagged and noisy.</li>
 </ul><p>Try several values and choose the one that shows the shape honestly.
 The file <code>histograms.py</code> draws both next to each other.</p>
-<p>📷 Image placeholder: episodes/fig/size_histograms.png — two
-histograms side by side. The left one has 5 bars: two tall bars (87 and
-81) on the left, an empty gap, and a short bar (20) at the far right.
-The right one has 20 narrower bars, with a cluster on the left, many
-empty bins in the middle and right, and one bar of 20 at the far
-right.</p>
-<p>Notice that the bars of a histogram touch. That is because the x axis
+<figure><img src="../fig/size_histograms.png" alt="two histograms side by side. The left one has 5 bars: two tall bars (87 and 81) on the left, an empty gap, and a short bar (20) at the far right. The right one has 20 narrower bars, with a cluster on the left, many empty bins in the middle and right, and one bar of 20 at the far right." class="figure mx-auto d-block"><div class="figcaption">two histograms side by side. The left one has 5
+bars: two tall bars (87 and 81) on the left, an empty gap, and a short
+bar (20) at the far right. The right one has 20 narrower bars, with a
+cluster on the left, many empty bins in the middle and right, and one
+bar of 20 at the far right.</div>
+</figure><p>Notice that the bars of a histogram touch. That is because the x axis
 is a continuous number line, not separate categories. The gap in the
 middle means no response had a size in that range. The group at the far
 right is the 20 responses of the largest size.</p>
@@ -1381,13 +1378,13 @@ order.</li>
 <strong>Plot.</strong> A bar chart, with a title, labels and units.
 The bars start at zero because we did not change the axis.</li>
 </ul><p>The numbers are floats (<code>55.0</code>) because the missing value
-made Pandas store the column as decimals. The saved code in <a href="../files/code/6.3">6.3_code</a> is <code>worked_example.py</code>.
-It saves a PNG instead of calling <code>plt.show()</code>.</p>
-<p>📷 Image placeholder: episodes/fig/tickets_per_month.png — three bars
-labelled Jan, Feb and Mar, with heights 55, 60 and 70. The bars rise a
-little each month. The y axis starts at 0. The title is “Tickets closed
-per month”.</p>
-</div>
+made Pandas store the column as decimals. The saved code in <a href="../files/code/6.3/team_chart.py">team_chart.py</a>, <a href="../files/code/6.3/worked_example.py">worked_example.py</a> is
+<code>worked_example.py</code>. It saves a PNG instead of calling
+<code>plt.show()</code>.</p>
+<figure><img src="../fig/tickets_per_month.png" alt="three bars labelled Jan, Feb and Mar, with heights 55, 60 and 70. The bars rise a little each month. The y axis starts at 0. The title is “Tickets closed per month”." class="figure mx-auto d-block"><div class="figcaption">three bars labelled Jan, Feb and Mar, with
+heights 55, 60 and 70. The bars rise a little each month. The y axis
+starts at 0. The title is “Tickets closed per month”.</div>
+</figure></div>
 <div class="section level3">
 <h3 id="the-sentence-that-finishes-the-chart">4. The sentence that finishes the chart<a class="anchor" aria-label="anchor" href="#the-sentence-that-finishes-the-chart"></a></h3>
 <p><strong>Step 6.</strong> Read the chart and write one sentence with a
@@ -1452,10 +1449,9 @@ ticket. Comparing totals can be unfair when the groups differ in size.
 The bridge this week returns to this idea. A good analyst states the
 limit next to the finding.</p>
 <p>This file is <code>team_chart.py</code>.</p>
-<p>📷 Image placeholder: episodes/fig/tickets_per_team.png — two bars.
-“Desk” is much taller (140) than “Network” (45). The y axis starts at
-0.</p>
-</div>
+<figure><img src="../fig/tickets_per_team.png" alt="two bars. “Desk” is much taller (140) than “Network” (45). The y axis starts at 0." class="figure mx-auto d-block"><div class="figcaption">two bars. “Desk” is much taller (140) than
+“Network” (45). The y axis starts at 0.</div>
+</figure></div>
 <div class="section level3">
 <h3 id="common-mistakes-2">6. Common mistakes<a class="anchor" aria-label="anchor" href="#common-mistakes-2"></a></h3>
 <ul><li>
@@ -1619,12 +1615,12 @@ starts. The code is in <a href="../files/code/bridge-6/axis_pair.py">bridge_code
 <p><code>plt.subplots(1, 2)</code> makes one figure with two sets of
 axes side by side. Run it in PyCharm (the saved file writes a PNG
 instead).</p>
-<p>📷 Image placeholder: episodes/fig/axis_pair.png — two bar charts
-side by side with the same three values (96, 97, 98). On the left, the
-axis starts at 95, so Team A’s bar is tiny, Team B’s is about twice as
-tall, and Team C’s is three times as tall. On the right, the axis starts
-at 0, and the three bars look almost the same height.</p>
-<p>Look at both. What impression does each give?</p>
+<figure><img src="../fig/axis_pair.png" alt="two bar charts side by side with the same three values (96, 97, 98). On the left, the axis starts at 95, so Team A’s bar is tiny, Team B’s is about twice as tall, and Team C’s is three times as tall. On the right, the axis starts at 0, and the three bars look almost the same height." class="figure mx-auto d-block"><div class="figcaption">two bar charts side by side with the same three
+values (96, 97, 98). On the left, the axis starts at 95, so Team A’s bar
+is tiny, Team B’s is about twice as tall, and Team C’s is three times as
+tall. On the right, the axis starts at 0, and the three bars look almost
+the same height.</div>
+</figure><p>Look at both. What impression does each give?</p>
 <ul><li>
 <strong>Left (axis from 95):</strong> Team C looks three times
 better than Team A. It looks like a big gap.</li>
@@ -2134,8 +2130,8 @@ any links that you are not going to use.
   "url": "https://ADCI-Perth.github.io/intro-to-programming-part-2-workbench/instructor/week-6.html",
   "identifier": "https://ADCI-Perth.github.io/intro-to-programming-part-2-workbench/instructor/week-6.html",
   "dateCreated": "2026-11-11",
-  "dateModified": "2026-11-11",
-  "datePublished": "2026-11-11"
+  "dateModified": "2026-11-12",
+  "datePublished": "2026-11-12"
 }
 
   </script><script>
