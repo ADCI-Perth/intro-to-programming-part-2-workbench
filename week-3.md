@@ -75,14 +75,14 @@ Open each lesson, read it, type out the examples and run them. Do not just copy 
 
 #### Section 3.1: Checking input (35 min)
 
-Lesson: [Section 3.1: Checking input](#section-3-1). Code: [lessons/3.1_code/](files/code/3.1/).
+Lesson: [Section 3.1: Checking input](#section-3-1). Code: [checking_input.py](files/code/3.1/checking_input.py).
 
 - Read all of it. `any` and `all` are new built-in functions, so take your time with them.
 - Do the **Level 1** exercises (1 to 5), about 3 minutes each.
 
 #### Section 3.2: Hashing with `hashlib` (30 min)
 
-Lesson: [Section 3.2: Hashing with `hashlib`](#section-3-2). Code: [lessons/3.2_code/](files/code/3.2/).
+Lesson: [Section 3.2: Hashing with `hashlib`](#section-3-2). Code: [hashing.py](files/code/3.2/hashing.py).
 
 - Read all of it. Binary file mode (`"rb"`) is new, and the lesson explains it.
 - The "reading in chunks" part is optional detail.
@@ -90,7 +90,7 @@ Lesson: [Section 3.2: Hashing with `hashlib`](#section-3-2). Code: [lessons/3.2_
 
 #### Section 3.3: The Caesar cipher (25 min)
 
-Lesson: [Section 3.3: The Caesar cipher](#section-3-3). Code: [lessons/3.3_code/](files/code/3.3/).
+Lesson: [Section 3.3: The Caesar cipher](#section-3-3). Code: [caesar.py](files/code/3.3/caesar.py).
 
 - Read all of it, and remember that this cipher is a teaching tool and is not secure.
 - Do the **Level 1** exercises (1 to 5).
@@ -99,11 +99,11 @@ Lesson: [Section 3.3: The Caesar cipher](#section-3-3). Code: [lessons/3.3_code/
 
 ### Concepts Bridge (30 min)
 
-Go to [bridge.md](#week-3-bridge). It compares hashing, encryption and encoding in one table, and has two short activities.
+Go to [the Concepts Bridge](#week-3-bridge). It compares hashing, encryption and encoding in one table, and has two short activities.
 
 ### Build (2 h)
 
-Go to [practice/README.md](#week-3-practice). You build a password strength checker with small, testable functions, run the tests, and write a short note. An integrity checker is an optional stretch. This is your portfolio item for Week 3.
+Go to [the practice task](#week-3-practice). You build a password strength checker with small, testable functions, run the tests, and write a short note. An integrity checker is an optional stretch. This is your portfolio item for Week 3.
 
 ### Quiz (15 min)
 

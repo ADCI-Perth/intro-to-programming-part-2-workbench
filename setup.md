@@ -31,7 +31,7 @@ Open the `IntroToProgrammingPart2` folder in PyCharm (**File > Open**). **Keep t
 
 A virtual environment is a private set of packages for one project. Week 4 explains what it is and why you want one. You can create it now, or when you reach Week 4:
 
-1. In PyCharm, open **Settings > Project > Python Interpreter**.
+1. In PyCharm, open **Settings > Python > All Interpreters**. In older PyCharm versions this is **Settings > Project > Python Interpreter**.
 2. Add a new interpreter and choose **Virtualenv** (a new environment in the project folder).
 3. Open the **Terminal** tab at the bottom of PyCharm. You should see `(.venv)` at the start of the line.
 

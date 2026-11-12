@@ -81,7 +81,7 @@ Open each lesson, read it, type out the examples and run them. Do not just copy 
 
 #### Section 2.1: Text files (about 35 min)
 
-Lesson: [Section 2.1: Text files](#section-2-1). Code: [lessons/2.1_code/](files/code/2.1/).
+Lesson: [Section 2.1: Text files](#section-2-1). Code: [text_files.py](files/code/2.1/text_files.py).
 
 - Read: `with`, the modes `"r"`, `"w"` and `"a"`, reading and looping, `FileNotFoundError`, and file paths.
 - Do Level 1 exercises 1 to 6.
@@ -90,21 +90,21 @@ Lesson: [Section 2.1: Text files](#section-2-1). Code: [lessons/2.1_code/](files
 
 #### Section 2.2: CSV files (about 30 min)
 
-Lesson: [Section 2.2: CSV files](#section-2-2). Code: [lessons/2.2_code/](files/code/2.2/).
+Lesson: [Section 2.2: CSV files](#section-2-2). Code: [csv_files.py](files/code/2.2/csv_files.py).
 
 - Read: `csv.reader`, `csv.DictReader`, `csv.writer`, `csv.DictWriter`, `newline=""`, and why everything is a string.
 - Do Level 1 exercises 1 to 6.
 
 #### Section 2.3: JSON (about 25 min)
 
-Lesson: [Section 2.3: JSON](#section-2-3). Code: [lessons/2.3_code/](files/code/2.3/).
+Lesson: [Section 2.3: JSON](#section-2-3). Code: [json_files.py](files/code/2.3/json_files.py).
 
 - Read: `dump`, `load`, `dumps`, `loads`, what JSON can hold, and why an object becomes a dictionary first.
 - Do Level 1 exercises 1 to 6.
 
 #### Section 2.4: Reading a web log line by line (about 15 min)
 
-Lesson: [Section 2.4: Reading a web log](#section-2-4). Code: [lessons/2.4_code/](files/code/2.4/).
+Lesson: [Section 2.4: Reading a web log](#section-2-4). Code: [web_log.py](files/code/2.4/web_log.py).
 
 - Read: the parts of a log line, the status codes, and how to take one line apart.
 - Do Level 1 exercises 1 to 6. Keep them short.
@@ -113,11 +113,11 @@ The section times add up to 35 + 30 + 25 + 15 = 105 minutes, which is 1 h 45 min
 
 ### Concepts Bridge (30 min)
 
-Go to [bridge.md](#week-2-bridge). It explains why data from a file, download or form must be checked, and why `pickle.load` and `eval()` can run code while JSON and CSV cannot. It has two short activities.
+Go to [the Concepts Bridge](#week-2-bridge). It explains why data from a file, download or form must be checked, and why `pickle.load` and `eval()` can run code while JSON and CSV cannot. It has two short activities.
 
 ### Build (2 h)
 
-Go to [practice/README.md](#week-2-practice). In Part A (about 60 min) you build a converter that turns the web log into a CSV file. In Part B (about 45 min) you add `to_dict`, `from_dict`, `save` and `load` to your library, so your books are kept between runs. The last 15 minutes are for tidying, tests and a short written note. This is your portfolio item for Week 2.
+Go to [the practice task](#week-2-practice). In Part A (about 60 min) you build a converter that turns the web log into a CSV file. In Part B (about 45 min) you add `to_dict`, `from_dict`, `save` and `load` to your library, so your books are kept between runs. The last 15 minutes are for tidying, tests and a short written note. This is your portfolio item for Week 2.
 
 ### Quiz (15 min)
 
@@ -1276,7 +1276,7 @@ Try it: run `main.py`, add a book, choose Quit. Run it again and list the books.
 
 ### Run the tests
 
-From the top folder of the course repository, point `MINI_PROJECT_DIR` at your own folder. It must contain `log_converter.py`, `library.py` and `main.py`.
+From the top of the course folder, point `MINI_PROJECT_DIR` at your own folder. It must contain `log_converter.py`, `library.py` and `main.py`.
 
 PowerShell:
 
